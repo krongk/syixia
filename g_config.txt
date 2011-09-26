@@ -1,0 +1,22 @@
+---
+git:
+  user.name:  krongk
+  user.email: kenrome@gmail.com
+  version:    git version 1.7.6.msysgit.0
+
+ruby:
+  bin:        C:/RailsInstaller/Ruby1.9.2/bin/ruby.exe
+  version:    ruby 1.9.2p290 (2011-07-09) [i386-mingw32]
+
+rails:
+  bin:        C:/RailsInstaller/Ruby1.9.2/bin/rails.bat
+  version:    Rails 3.1.0
+
+ssh:
+  public_key_location: C:\Users\Administrator/.ssh/id_rsa.pub
+  public_key_contents: ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAxxWYWyDJFqDkpW4t6wgXgBU1uO12JvucH3b2fAYgOHi3jqLzFGaQBLziuEk6Z
+UAqjsBzDV0A3LmbprdPL0SJDS9Ej5kEaSPKU/J6AU8K+mZoFfWwqQRZJiU/OAM/+qVmml7Z4ijYmtvjxAmsjKXB7iC7L1qB4jDu+yMJHjtu54ELwnFMaAc4A
+MRmkfidGH9s9RULVJszLgg9On/poWdVrxIm5PAlZpCGfWjBdG9snRqbaeurHfiFOszK5BqaTxGAxD751pXRbpoaFCe0pidNEHl5H8pV5tWaSyUHQe7jXshDf
+r6L4KEzEINP4dqT7C/+igkOuPmqNVGE6kImdLbULQ== kenrome@gmail.com
+
+
