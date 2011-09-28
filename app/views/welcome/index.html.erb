@@ -1,0 +1,11 @@
+<h1>Welcome#index</h1>
+
+[<%=@result.size%>]
+<% @result.each_with_index do |r, index| %>
+  <div class="result" id="<%=index%>">
+    <h3><%= @coder.encode(r[:title])%></h3>
+    <p><%=r[:url]%></p>
+    <p><%= @coder.encode(r[:desc])%></p>
+  </div>
+  <hr/>
+<% end %>
