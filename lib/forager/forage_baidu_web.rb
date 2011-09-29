@@ -15,8 +15,7 @@ module Forager
       #submit form
       sform = page.form_with(:action => "/s")
       sform.wd = key_word
-      spage = sform.submit
-      # doc = Hpricot(Iconv.conv('utf-8', f.charset, f.readlines.join("\n")))      
+      spage = sform.submit     
       doc = Hpricot(ic.iconv(spage.body))
 
       results = doc.at("div[@id='container']")

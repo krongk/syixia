@@ -18,11 +18,12 @@
 				<div id="topnav" role="contentinfo">
 					<span><a href="#">登录</a> | <a href="#">联系</a> | <a href="#">设为首页</a></span>
 				</div>
-				<center><div class="center"><table border='0' width="600px"><tr><td width="160px"><%= image_tag 'logo.gif' %></td><td align="left">
-          <%= render :partial => 'layouts/form' %></td></tr></table>
-          </div></center>
+				<h1><%= image_tag 'logo.gif' %></h1>
+
+        <%=render :partical => 'form' %>
+
 			</div>
-			<!-- begin: main navigation #nav 
+			<!-- begin: main navigation #nav -->
 			<div id="nav" role="navigation">
 				<div class="hlist">
           <ul><li>
@@ -30,7 +31,7 @@
           </li></ul>
 				</div>
 			</div>
-			end: main navigation -->
+			<!-- end: main navigation -->
 
 <!-- begin: main content area #main -->
     <div id="main">
@@ -55,21 +56,21 @@
       </div>
       <!-- end: #col2 -->
 
-      <!-- begin: #col3 static column 
+      <!-- begin: #col3 static column -->
       <div id="col3" role="complementary">
         <div id="col3_content" class="clearfix">
           
         </div>
-        
+        <!-- IE Column Clearing -->
         <div id="ie_clearing">&nbsp;</div>
       </div>
-       end: #col3 -->
+      <!-- end: #col3 -->
     </div>
     <!-- end: #main -->
 
 	<!-- begin: #footer -->
-    <%= render :partial =>"layouts/footer" %>
-  <!-- end: #footer -->
+			<div id="footer" role="contentinfo"> Footer with copyright notice and status information<br />Layout based on <a href="http://www.yaml.de/">YAML</a> </div>
+			<!-- end: #footer -->
 		</div>
 	</div>
 	<!-- full skiplink functionality in webkit browsers -->

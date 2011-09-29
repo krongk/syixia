@@ -22,12 +22,16 @@ class WelcomeController < ApplicationController
   def result
   end
 
+  #关于我们
   def about
+    layout 'static'
   end
 
+  #版权声明
   def faq
   end
 
+  #意见建议
   def contact
   end
 

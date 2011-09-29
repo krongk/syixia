@@ -18,13 +18,13 @@
     <div id="main">
       <!-- begin: #col1 - first float column -->
       <div id="col1" role="main">
-        <div id="col1_content" class="clearfix" style="align:center">
+        <div id="col1_content" class="clearfix">
 
         <div class="root_case">
 		<div class="root_logo"><a href="#"><%= image_tag 'logo.gif' %></a></div>
 		<div class="error_07"></div>
 		<!--<div class="root_title"> Write English with Confidence</div> -->
-		<div class="root_title"> 让 英 文 更 地 道 ！</div>
+		<!--<div class="root_title"> 让 英 文 更 地 道 ！</div>-->
 		<div class="error_13"></div>
           <form action="/" onsubmit="return CHK_erro('q');">
 
@@ -50,8 +50,8 @@
     <!-- end: #main -->
 
 	<!-- begin: #footer -->
-			<div id="footer" role="contentinfo" style="algin:center"> Footer with copyright notice and status information<br />Layout based on  </div>
-			<!-- end: #footer -->
+	<%= render :partial =>"layouts/footer" %>
+	<!-- end: #footer -->
 		</div>
 	</div>
 	<!-- full skiplink functionality in webkit browsers -->

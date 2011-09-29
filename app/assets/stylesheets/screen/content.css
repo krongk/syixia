@@ -165,7 +165,8 @@
   .float_left { float:left; display:inline; margin-right:1em; margin-bottom:0.15em; }
   .float_right { float:right; display:inline; margin-left:1em; margin-bottom:0.15em; }
   .center { display:block; text-align:center; margin:0.5em auto; }
-
+  .blue{color: blue;}
+  .green{color: green;}
  /**
   * ------------------------------------------------------------------------------------------------- #
   *
@@ -177,7 +178,7 @@
   * @section content-tables
   */
 
-  table { width:auto; border-collapse:collapse; margin-bottom:0.5em; border-top:2px #888 solid; border-bottom:2px #888 solid; }
+  table { width:auto; border-collapse:collapse; margin-bottom:0em; border-top:0px #888 solid; border-bottom:0px #888 solid; }
   table caption { font-variant:small-caps; }
   table.full { width:100%; }
   table.fixed { table-layout:fixed; }
