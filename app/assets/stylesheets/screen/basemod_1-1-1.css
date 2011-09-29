@@ -30,17 +30,17 @@
    * |-------------------------------|
    */
 
-  #main { width: 100%; float:left; }
+  #form_page #main { width: 100%; float:left; }
 
   /* #col1 becomes the middle column | #col1 wird zur mittleren Spalte */
-  #col1 { width: 100%; float:left; margin-left: 0%; }
-  #col1_content { padding-left: 10px; padding-right: 10px }
+  #form_page #col1 { width: 100%; float:left; margin-left: 0%; }
+  #form_page #col1_content { padding-left: 10px; padding-right: 10px }
 
   /* #col2 becomes the left column | #col2 wird zur linken Spalte */
-  #col2 { width: 0%; float:left;  margin-left: 0%;}
-  #col2_content { padding-left: 20px; padding-right: 10px }
+  #form_page #col2 { width: 0%; float:left;  margin-left: 0%;}
+  #form_page #col2_content { padding-left: 20px; padding-right: 10px }
 
   /* #col3 becomes the right column | #col3 wird zur rechten Spalte */
-  #col3 {  float:right; width: 0%; margin-left: -5px; margin-right: 0%; }
-  #col3_content { padding-left: 10px; padding-right: 20px }
+  #form_page #col3 {  float:right; width: 0%; margin-left: -5px; margin-right: 0%; }
+  #form_page #col3_content { padding-left: 10px; padding-right: 20px }
 }

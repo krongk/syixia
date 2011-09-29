@@ -3,7 +3,7 @@
 [<%=@result.size%>]
 <% @result.each_with_index do |r, index| %>
   <div class="result" id="<%=index%>">
-    <h3><%= @coder.encode(r[:title])%></h3>
+    <h3><%= link_to @coder.encode(r[:title]), r[:url], :target => '_blank'%></h3>
     <p><%=r[:url]%></p>
     <p><%= @coder.encode(r[:desc])%></p>
   </div>

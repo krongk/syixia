@@ -4715,3 +4715,3095 @@ Read 1440 bytes (5760 total)
 Read 1440 bytes (7200 total)
 Read 4388 bytes (11588 total)
 gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:01:33 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:01:33 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=6C8F9F16B27FFDC3AAE3B9D246B90D50:FG=1; expires=Thu, 29-Sep-41 05:01:33 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=6C8F9F16B27FFDC3AAE3B9D246B90D50:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=6C8F9F16B27FFDC3AAE3B9D246B90D50:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:01:33 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:01:41 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:01:41 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=3262FEA595BDADCA9663426519CB9366:FG=1; expires=Thu, 29-Sep-41 05:01:41 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=3262FEA595BDADCA9663426519CB9366:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=wef&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=3262FEA595BDADCA9663426519CB9366:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:01:41 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 10947
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 4320 bytes (7200 total)
+Read 3747 bytes (10947 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:01:51 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:01:51 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=CED6970F34CDCD8E97EB224C3E3B35E3:FG=1; expires=Thu, 29-Sep-41 05:01:51 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=CED6970F34CDCD8E97EB224C3E3B35E3:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%B4%F3%BC%D2&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=CED6970F34CDCD8E97EB224C3E3B35E3:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:01:51 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12433
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 4320 bytes (7200 total)
+Read 4320 bytes (11520 total)
+Read 913 bytes (12433 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:01:59 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:01:59 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=B666C13B87CFEE7129F826443FBD8051:FG=1; expires=Thu, 29-Sep-41 05:01:59 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=B666C13B87CFEE7129F826443FBD8051:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=mysql&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=B666C13B87CFEE7129F826443FBD8051:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:01:59 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 13741
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 4320 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 4320 bytes (11520 total)
+Read 1440 bytes (12960 total)
+Read 781 bytes (13741 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:02:28 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:02:28 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=130195D46C41FA56E82A8D620987ECFE:FG=1; expires=Thu, 29-Sep-41 05:02:28 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=130195D46C41FA56E82A8D620987ECFE:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=130195D46C41FA56E82A8D620987ECFE:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:02:28 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:29:11 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:29:11 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=C272F92F1900A9034D18BF481BE35FDB:FG=1; expires=Thu, 29-Sep-41 05:29:11 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=C272F92F1900A9034D18BF481BE35FDB:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=C272F92F1900A9034D18BF481BE35FDB:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:29:12 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:30:02 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:30:02 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=EA3532057D8FF5AC916D45986639AC99:FG=1; expires=Thu, 29-Sep-41 05:30:02 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=EA3532057D8FF5AC916D45986639AC99:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=wef&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=EA3532057D8FF5AC916D45986639AC99:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:30:02 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 10946
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 5760 bytes (10080 total)
+Read 866 bytes (10946 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:31:01 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:31:01 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=65318230C453E480298697910F2A0969:FG=1; expires=Thu, 29-Sep-41 05:31:01 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=65318230C453E480298697910F2A0969:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=wef&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=65318230C453E480298697910F2A0969:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:31:01 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 11285
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 2880 bytes (10080 total)
+Read 1205 bytes (11285 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:31:12 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:31:12 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=ABCFB5C177A00FF08EFC98378E3E1FA1:FG=1; expires=Thu, 29-Sep-41 05:31:12 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=ABCFB5C177A00FF08EFC98378E3E1FA1:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=ABCFB5C177A00FF08EFC98378E3E1FA1:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:31:12 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:31:15 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:31:15 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=8DEC5A1D4778995A086017EA80A6F23D:FG=1; expires=Thu, 29-Sep-41 05:31:15 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=8DEC5A1D4778995A086017EA80A6F23D:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=wef&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=8DEC5A1D4778995A086017EA80A6F23D:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:31:15 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 11021
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 3821 bytes (11021 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:32:25 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:32:25 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=80A3C6A9027C2CDFC61B4160861DCE75:FG=1; expires=Thu, 29-Sep-41 05:32:25 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=80A3C6A9027C2CDFC61B4160861DCE75:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=wef&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=80A3C6A9027C2CDFC61B4160861DCE75:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:32:25 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 10920
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 4320 bytes (10080 total)
+Read 840 bytes (10920 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:32:28 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:32:28 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=C9CFF6754984E8903CD95FBB3E3E294F:FG=1; expires=Thu, 29-Sep-41 05:32:28 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=C9CFF6754984E8903CD95FBB3E3E294F:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=wef&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=C9CFF6754984E8903CD95FBB3E3E294F:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:32:28 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 10906
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 4320 bytes (8640 total)
+Read 2266 bytes (10906 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:34:18 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:34:18 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=15B766EA9A0CF8F1184E4D6197027796:FG=1; expires=Thu, 29-Sep-41 05:34:18 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=15B766EA9A0CF8F1184E4D6197027796:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=15B766EA9A0CF8F1184E4D6197027796:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:34:18 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:34:19 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:34:19 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=6B52F0626B4D594B789AE0970E3A3611:FG=1; expires=Thu, 29-Sep-41 05:34:19 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=6B52F0626B4D594B789AE0970E3A3611:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=6B52F0626B4D594B789AE0970E3A3611:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:34:19 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:35:44 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:35:44 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=134426C6C349183936975EEFC7517032:FG=1; expires=Thu, 29-Sep-41 05:35:44 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=134426C6C349183936975EEFC7517032:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=134426C6C349183936975EEFC7517032:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:35:44 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:36:24 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:36:24 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=70D73C7691FB9E4FCE90FD6356F10AF1:FG=1; expires=Thu, 29-Sep-41 05:36:24 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=70D73C7691FB9E4FCE90FD6356F10AF1:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=tere&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=70D73C7691FB9E4FCE90FD6356F10AF1:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:36:24 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12075
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 2880 bytes (10080 total)
+Read 1995 bytes (12075 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:37:10 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:37:10 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=858C1666D37B90F78E049A51A459FD5E:FG=1; expires=Thu, 29-Sep-41 05:37:10 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=858C1666D37B90F78E049A51A459FD5E:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D1%BE%F7%DF&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=858C1666D37B90F78E049A51A459FD5E:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:37:11 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 11130
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 2880 bytes (5760 total)
+Read 1440 bytes (7200 total)
+Read 2880 bytes (10080 total)
+Read 1050 bytes (11130 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:42:09 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3848
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:42:09 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=401705655F1C23E764374434FCE76799:FG=1; expires=Thu, 29-Sep-41 05:42:09 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 968 bytes (3848 total)
+gzip body
+saved cookie: BAIDUID=401705655F1C23E764374434FCE76799:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D1%BE%F7%DF&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=401705655F1C23E764374434FCE76799:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:42:09 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12271
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 4320 bytes (7200 total)
+Read 2880 bytes (10080 total)
+Read 2191 bytes (12271 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:44:13 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:44:13 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=544AA8E741A3C45991A6299284E1D5DB:FG=1; expires=Thu, 29-Sep-41 05:44:13 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=544AA8E741A3C45991A6299284E1D5DB:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D1%BE%F7%DF&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=544AA8E741A3C45991A6299284E1D5DB:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:44:13 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 11216
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 4016 bytes (11216 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:48:16 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:48:16 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=07892BA6788EC85958A82868ABBE7837:FG=1; expires=Thu, 29-Sep-41 05:48:16 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=07892BA6788EC85958A82868ABBE7837:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=07892BA6788EC85958A82868ABBE7837:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:48:16 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:48:21 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:48:21 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=DAE303CA795E54315A83EE9DC9F8E1D9:FG=1; expires=Thu, 29-Sep-41 05:48:21 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=DAE303CA795E54315A83EE9DC9F8E1D9:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%C8%C3+%D3%A2+%CE%C4+%B8%FC+%B5%D8+%B5%C0+%A3%A1&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=DAE303CA795E54315A83EE9DC9F8E1D9:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:48:21 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 13527
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 4320 bytes (7200 total)
+Read 4320 bytes (11520 total)
+Read 2007 bytes (13527 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:50:15 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3775
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:50:15 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=B663647D9B35A8E577EBBC18D5F35854:FG=1; expires=Thu, 29-Sep-41 05:50:15 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 895 bytes (3775 total)
+gzip body
+saved cookie: BAIDUID=B663647D9B35A8E577EBBC18D5F35854:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&ch=&tn=fjjzwl_pg&bar=&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=B663647D9B35A8E577EBBC18D5F35854:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:50:16 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 113
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: set-cookie => BDRCVFR[aiplO0L3qRc]=I67x6TjHwwYf0; path=/; domain=www.baidu.com
+response-header: connection => Keep-Alive
+Read 113 bytes (113 total)
+saved cookie: BDRCVFR[aiplO0L3qRc]=I67x6TjHwwYf0
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:50:18 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:50:18 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=673E601B6BF278A4AE36789157915CD5:FG=1; expires=Thu, 29-Sep-41 05:50:18 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=673E601B6BF278A4AE36789157915CD5:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=wf&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=673E601B6BF278A4AE36789157915CD5:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:50:18 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12479
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 4320 bytes (4320 total)
+Read 4320 bytes (8640 total)
+Read 1440 bytes (10080 total)
+Read 2399 bytes (12479 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:55:24 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:55:24 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=CFE3D74AAE8765A947D70586D2ED1D37:FG=1; expires=Thu, 29-Sep-41 05:55:24 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=CFE3D74AAE8765A947D70586D2ED1D37:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=wf&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=CFE3D74AAE8765A947D70586D2ED1D37:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:55:24 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12631
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 2880 bytes (8640 total)
+Read 3991 bytes (12631 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:56:03 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 05:56:03 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=481C4FA67AA20408420A0E3092DF193A:FG=1; expires=Thu, 29-Sep-41 05:56:03 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=481C4FA67AA20408420A0E3092DF193A:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=wf&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=481C4FA67AA20408420A0E3092DF193A:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 05:56:03 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12526
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 4320 bytes (11520 total)
+Read 1006 bytes (12526 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 06:05:17 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 06:05:17 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=8E1FED7AD477004858C519E80D6BA728:FG=1; expires=Thu, 29-Sep-41 06:05:17 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=8E1FED7AD477004858C519E80D6BA728:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=8E1FED7AD477004858C519E80D6BA728:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 06:05:17 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 06:07:08 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 06:07:08 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=5BE303F6E615374F728669B88C27D7D5:FG=1; expires=Thu, 29-Sep-41 06:07:08 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=5BE303F6E615374F728669B88C27D7D5:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=5BE303F6E615374F728669B88C27D7D5:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 06:07:08 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 06:09:20 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 06:09:20 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=8436A2ED14B1D69F22DB95A497E739E7:FG=1; expires=Thu, 29-Sep-41 06:09:20 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=8436A2ED14B1D69F22DB95A497E739E7:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=8436A2ED14B1D69F22DB95A497E739E7:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 06:09:20 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:37:59 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:37:59 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=6D699F6C8550A50C6784B624C77E99B4:FG=1; expires=Thu, 29-Sep-41 07:37:59 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=6D699F6C8550A50C6784B624C77E99B4:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=wef&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=6D699F6C8550A50C6784B624C77E99B4:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:38:00 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 11329
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 2880 bytes (8640 total)
+Read 2689 bytes (11329 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:41:16 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:41:16 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=B60518B2A1DDDA394E9C3BFC77038283:FG=1; expires=Thu, 29-Sep-41 07:41:16 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=B60518B2A1DDDA394E9C3BFC77038283:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=B60518B2A1DDDA394E9C3BFC77038283:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:41:16 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:42:30 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:42:30 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=7279B2A0BA44D4AA88838FB90F1899A2:FG=1; expires=Thu, 29-Sep-41 07:42:30 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=7279B2A0BA44D4AA88838FB90F1899A2:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=7279B2A0BA44D4AA88838FB90F1899A2:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:42:30 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:42:45 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:42:45 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=FFB2BDED1F3C6AEBB6BDD7C0A543EB68:FG=1; expires=Thu, 29-Sep-41 07:42:45 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=FFB2BDED1F3C6AEBB6BDD7C0A543EB68:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D3%A2+%CE%C4&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=FFB2BDED1F3C6AEBB6BDD7C0A543EB68:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:42:46 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 13546
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 2880 bytes (10080 total)
+Read 2880 bytes (12960 total)
+Read 586 bytes (13546 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:43:17 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:43:17 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=0807C9DD7F2E341632B05329D044B71B:FG=1; expires=Thu, 29-Sep-41 07:43:17 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=0807C9DD7F2E341632B05329D044B71B:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=wef&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=0807C9DD7F2E341632B05329D044B71B:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:43:17 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 11344
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 4144 bytes (11344 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:45:38 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:45:38 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=2C9B25879A5D3F6FABC028E76D2C0887:FG=1; expires=Thu, 29-Sep-41 07:45:38 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=2C9B25879A5D3F6FABC028E76D2C0887:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D3%A2%CE%C4&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=2C9B25879A5D3F6FABC028E76D2C0887:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:45:39 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12488
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 4320 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 6728 bytes (12488 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:46:49 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:46:49 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=040F2CB216CED3429B8BA600C309A94B:FG=1; expires=Thu, 29-Sep-41 07:46:49 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=040F2CB216CED3429B8BA600C309A94B:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=040F2CB216CED3429B8BA600C309A94B:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:46:49 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:46:57 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:46:57 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=337FB55CF41D5B0EDB6BC907308D7071:FG=1; expires=Thu, 29-Sep-41 07:46:57 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=337FB55CF41D5B0EDB6BC907308D7071:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D6%D0%B9%FA&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=337FB55CF41D5B0EDB6BC907308D7071:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:46:57 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12782
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 2880 bytes (10080 total)
+Read 2702 bytes (12782 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:49:37 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:49:37 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=F4E565F13599307FA6A5D635D2CF5C92:FG=1; expires=Thu, 29-Sep-41 07:49:37 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=F4E565F13599307FA6A5D635D2CF5C92:FG=1
+form encoding: gb2312
+from_native_charset: Encoding::InvalidByteSequenceError: form encoding: "gb2312" string: жа
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:50:55 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:50:55 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=65BCBB8F2D910AD21772032D3C5A7C48:FG=1; expires=Thu, 29-Sep-41 07:50:55 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=65BCBB8F2D910AD21772032D3C5A7C48:FG=1
+form encoding: gb2312
+from_native_charset: Encoding::InvalidByteSequenceError: form encoding: "gb2312" string: жа
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:52:46 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:52:46 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=CC0D243A90CC54350C3FEEE328CCD9F6:FG=1; expires=Thu, 29-Sep-41 07:52:46 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=CC0D243A90CC54350C3FEEE328CCD9F6:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=CC0D243A90CC54350C3FEEE328CCD9F6:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:52:47 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:52:52 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:52:52 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=3B081B13FC64261D7DFB277FC3FEF269:FG=1; expires=Thu, 29-Sep-41 07:52:52 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=3B081B13FC64261D7DFB277FC3FEF269:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%CE%CC%B7%AB&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=3B081B13FC64261D7DFB277FC3FEF269:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:52:52 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 11445
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 4245 bytes (11445 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:57:13 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:57:13 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=418C07601B630411F75CFE0E9FD1080B:FG=1; expires=Thu, 29-Sep-41 07:57:13 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=418C07601B630411F75CFE0E9FD1080B:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=418C07601B630411F75CFE0E9FD1080B:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:57:13 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:57:25 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:57:25 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=9122DCC90BA585CE9B5BACE30B8E87E3:FG=1; expires=Thu, 29-Sep-41 07:57:25 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=9122DCC90BA585CE9B5BACE30B8E87E3:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D6%D0%B9%FA&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=9122DCC90BA585CE9B5BACE30B8E87E3:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:57:25 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12761
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 4320 bytes (4320 total)
+Read 5760 bytes (10080 total)
+Read 2681 bytes (12761 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:57:59 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:57:59 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=AD1628BB8D641554B04A6685769CDDC6:FG=1; expires=Thu, 29-Sep-41 07:57:59 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=AD1628BB8D641554B04A6685769CDDC6:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D6%D0%B9%FA&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=AD1628BB8D641554B04A6685769CDDC6:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:58:00 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12701
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 4320 bytes (8640 total)
+Read 4061 bytes (12701 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:58:05 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:58:05 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=74FEF72A4041C10E224F00756B5327C2:FG=1; expires=Thu, 29-Sep-41 07:58:05 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=74FEF72A4041C10E224F00756B5327C2:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D6%D0%B9%FA&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=74FEF72A4041C10E224F00756B5327C2:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:58:06 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12792
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 4320 bytes (8640 total)
+Read 4152 bytes (12792 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:58:17 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:58:17 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=140A405D2149D1BF153C0ECCB4A0034B:FG=1; expires=Thu, 29-Sep-41 07:58:17 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=140A405D2149D1BF153C0ECCB4A0034B:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D6%D0%B9%FA&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=140A405D2149D1BF153C0ECCB4A0034B:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:58:17 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12657
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 4320 bytes (8640 total)
+Read 2880 bytes (11520 total)
+Read 1137 bytes (12657 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:58:51 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:58:51 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=7994B83381AB0552E88E2ED3F6CFEDA5:FG=1; expires=Thu, 29-Sep-41 07:58:51 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=7994B83381AB0552E88E2ED3F6CFEDA5:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D6%D0%B9%FA&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=7994B83381AB0552E88E2ED3F6CFEDA5:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:58:51 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12824
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 1440 bytes (7200 total)
+Read 2880 bytes (10080 total)
+Read 2744 bytes (12824 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:59:08 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:59:08 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=E82D20AD58BD45761C147D39CEED075E:FG=1; expires=Thu, 29-Sep-41 07:59:08 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=E82D20AD58BD45761C147D39CEED075E:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D6%D0%B9%FA&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=E82D20AD58BD45761C147D39CEED075E:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:59:08 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12749
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 4320 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 4320 bytes (10080 total)
+Read 2669 bytes (12749 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:59:15 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 07:59:15 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=F96DEDB117616945D233D4974BEAEBEE:FG=1; expires=Thu, 29-Sep-41 07:59:15 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=F96DEDB117616945D233D4974BEAEBEE:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D6%D0%B9%FA&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=F96DEDB117616945D233D4974BEAEBEE:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 07:59:15 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12796
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 4320 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 2880 bytes (10080 total)
+Read 2716 bytes (12796 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:01:08 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:01:08 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=5D1DAC17D072FE1DC9EECE9B3322D796:FG=1; expires=Thu, 29-Sep-41 08:01:08 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=5D1DAC17D072FE1DC9EECE9B3322D796:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%D6%D0%B9%FA&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=5D1DAC17D072FE1DC9EECE9B3322D796:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:01:08 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12810
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 4320 bytes (4320 total)
+Read 5760 bytes (10080 total)
+Read 2730 bytes (12810 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:03:53 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:03:53 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=30745A92520DE59533F10D08C8090D67:FG=1; expires=Thu, 29-Sep-41 08:03:53 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=30745A92520DE59533F10D08C8090D67:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=30745A92520DE59533F10D08C8090D67:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:03:53 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:03:59 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:03:59 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=089ADE04751B4DCCC7949FD3C725DB5C:FG=1; expires=Thu, 29-Sep-41 08:03:59 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=089ADE04751B4DCCC7949FD3C725DB5C:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%B3%C9%B6%BC&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=089ADE04751B4DCCC7949FD3C725DB5C:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:03:59 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 15399
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 2880 bytes (8640 total)
+Read 4320 bytes (12960 total)
+Read 2439 bytes (15399 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:06:06 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:06:06 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=200416CDB6F49AC1306D9C60761698E6:FG=1; expires=Thu, 29-Sep-41 08:06:06 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=200416CDB6F49AC1306D9C60761698E6:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%B3%C9%B6%BC&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=200416CDB6F49AC1306D9C60761698E6:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:06:06 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 15416
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 1440 bytes (8640 total)
+Read 1440 bytes (10080 total)
+Read 2880 bytes (12960 total)
+Read 1440 bytes (14400 total)
+Read 1016 bytes (15416 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:30:05 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:30:05 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=A3DAFB0850A149CB8CB220DE70A31CE8:FG=1; expires=Thu, 29-Sep-41 08:30:05 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=A3DAFB0850A149CB8CB220DE70A31CE8:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%B3%C9%B6%BC&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=A3DAFB0850A149CB8CB220DE70A31CE8:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:30:05 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 15926
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 4320 bytes (11520 total)
+Read 1440 bytes (12960 total)
+Read 2966 bytes (15926 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:32:13 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:32:13 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=629DE16D86253785187A67FC8C663C2B:FG=1; expires=Thu, 29-Sep-41 08:32:13 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=629DE16D86253785187A67FC8C663C2B:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=629DE16D86253785187A67FC8C663C2B:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:32:13 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:34:30 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:34:30 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=406DA961DC2E6351DB90FC68A2F3E3EE:FG=1; expires=Thu, 29-Sep-41 08:34:30 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=406DA961DC2E6351DB90FC68A2F3E3EE:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=406DA961DC2E6351DB90FC68A2F3E3EE:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:34:30 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:35:48 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:35:48 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=7CE308D061D115D5F194D6274531BA49:FG=1; expires=Thu, 29-Sep-41 08:35:48 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=7CE308D061D115D5F194D6274531BA49:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%C8%D8%B3%C7&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=7CE308D061D115D5F194D6274531BA49:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:35:49 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12083
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 1440 bytes (7200 total)
+Read 2880 bytes (10080 total)
+Read 2003 bytes (12083 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:36:13 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:36:13 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=9563AB499E2297106A95193C149BA90B:FG=1; expires=Thu, 29-Sep-41 08:36:13 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=9563AB499E2297106A95193C149BA90B:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%B0%D9%BF%C6&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=9563AB499E2297106A95193C149BA90B:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:36:13 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 12844
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 4320 bytes (4320 total)
+Read 4320 bytes (8640 total)
+Read 4204 bytes (12844 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:37:23 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:37:23 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=D7B9736BF5E6D348A824C78E5B4D6D9A:FG=1; expires=Thu, 29-Sep-41 08:37:23 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=D7B9736BF5E6D348A824C78E5B4D6D9A:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=D7B9736BF5E6D348A824C78E5B4D6D9A:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:37:23 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 94
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: connection => Keep-Alive
+Read 94 bytes (94 total)
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:37:31 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:37:31 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=B514EBC007249CB27DCAF5BC8A0D1C9A:FG=1; expires=Thu, 29-Sep-41 08:37:31 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=B514EBC007249CB27DCAF5BC8A0D1C9A:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%CE%CC%B7%AB&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=B514EBC007249CB27DCAF5BC8A0D1C9A:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:37:31 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 11537
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 4320 bytes (10080 total)
+Read 1457 bytes (11537 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:38:37 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:38:37 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=570C231549A195D82E4EAA8217C07C12:FG=1; expires=Thu, 29-Sep-41 08:38:37 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=570C231549A195D82E4EAA8217C07C12:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%CE%CA%CE%CA&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=570C231549A195D82E4EAA8217C07C12:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:38:37 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 11162
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 3962 bytes (11162 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:41:19 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:41:19 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=D7F67CEFED9203CA739BD3C774743B40:FG=1; expires=Thu, 29-Sep-41 08:41:19 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=D7F67CEFED9203CA739BD3C774743B40:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%CD%DE%CD%DE&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=D7F67CEFED9203CA739BD3C774743B40:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:41:19 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 17802
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 4320 bytes (4320 total)
+Read 4320 bytes (8640 total)
+Read 2880 bytes (11520 total)
+Read 1440 bytes (12960 total)
+Read 2880 bytes (15840 total)
+Read 1962 bytes (17802 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:41:51 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:41:51 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=44AD707F6E6F1B3C3DFB06B8A400E6C9:FG=1; expires=Thu, 29-Sep-41 08:41:51 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=44AD707F6E6F1B3C3DFB06B8A400E6C9:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%CD%DE%CD%DE&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=44AD707F6E6F1B3C3DFB06B8A400E6C9:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:41:51 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 17918
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 2880 bytes (7200 total)
+Read 4320 bytes (11520 total)
+Read 2880 bytes (14400 total)
+Read 1440 bytes (15840 total)
+Read 2078 bytes (17918 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:42:50 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:42:50 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=119814F64419EF0E06F588F5A5DDCA3D:FG=1; expires=Thu, 29-Sep-41 08:42:50 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=119814F64419EF0E06F588F5A5DDCA3D:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%B0%C5%B1%C8%CD%DE%CD%DE&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=119814F64419EF0E06F588F5A5DDCA3D:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:42:50 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 20121
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 2880 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 4320 bytes (10080 total)
+Read 2880 bytes (12960 total)
+Read 1440 bytes (14400 total)
+Read 5721 bytes (20121 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:43:08 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:43:08 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=746CBB0F0A93C95F17FFD7A7DB3FECBD:FG=1; expires=Thu, 29-Sep-41 08:43:08 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=746CBB0F0A93C95F17FFD7A7DB3FECBD:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%B0%C5%B1%C8&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=746CBB0F0A93C95F17FFD7A7DB3FECBD:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:43:08 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 14697
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 4320 bytes (8640 total)
+Read 4320 bytes (12960 total)
+Read 1737 bytes (14697 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:43:17 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:43:17 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=D72F6BE12C2D9906A36A2396CAE5817B:FG=1; expires=Thu, 29-Sep-41 08:43:17 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=D72F6BE12C2D9906A36A2396CAE5817B:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%CD%DE%CD%DE&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=D72F6BE12C2D9906A36A2396CAE5817B:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:43:18 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 17383
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 2880 bytes (8640 total)
+Read 4320 bytes (12960 total)
+Read 2880 bytes (15840 total)
+Read 1543 bytes (17383 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:43:24 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:43:24 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=1C5D1647C559F6A110B573A526D9DF59:FG=1; expires=Thu, 29-Sep-41 08:43:24 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=1C5D1647C559F6A110B573A526D9DF59:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%B3%C9%B6%BC&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=1C5D1647C559F6A110B573A526D9DF59:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:43:24 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 15545
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 4320 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 1440 bytes (7200 total)
+Read 4320 bytes (11520 total)
+Read 1440 bytes (12960 total)
+Read 2585 bytes (15545 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:43:39 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:43:39 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=DF4E727FFBF2EDD1A9E8BDB137B8280D:FG=1; expires=Thu, 29-Sep-41 08:43:39 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 0 bytes (0 total)
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=DF4E727FFBF2EDD1A9E8BDB137B8280D:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%CB%C4%B4%A8%BB%AA%B5%C3%B5%E7%D7%D3%BF%C6%BC%BC%D3%D0%CF%DE%B9%AB%CB%BE&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=DF4E727FFBF2EDD1A9E8BDB137B8280D:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:43:39 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 11767
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 1440 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 4320 bytes (10080 total)
+Read 1687 bytes (11767 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:43:50 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:43:50 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=E52700C32D17E093894ADCF23F8FBE9E:FG=1; expires=Thu, 29-Sep-41 08:43:50 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 2880 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=E52700C32D17E093894ADCF23F8FBE9E:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%B0%C5%B1%C8%CD%DE%CD%DE&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=E52700C32D17E093894ADCF23F8FBE9E:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:43:50 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 20003
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 2880 bytes (4320 total)
+Read 1440 bytes (5760 total)
+Read 2880 bytes (8640 total)
+Read 4320 bytes (12960 total)
+Read 4320 bytes (17280 total)
+Read 2723 bytes (20003 total)
+gzip body
+Net::HTTP::Get: /
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: host => www.baidu.com
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:44:38 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 3745
+response-header: content-type => text/html;charset=gb2312
+response-header: cache-control => private
+response-header: expires => Thu, 29 Sep 2011 08:44:38 GMT
+response-header: content-encoding => gzip
+response-header: set-cookie => BAIDUID=D4D0E431571AB7B15B42A681D04A20B3:FG=1; expires=Thu, 29-Sep-41 08:44:38 GMT; path=/; domain=.baidu.com
+response-header: p3p => CP=" OTI DSP COR IVA OUR IND COM "
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 865 bytes (3745 total)
+gzip body
+saved cookie: BAIDUID=D4D0E431571AB7B15B42A681D04A20B3:FG=1
+form encoding: gb2312
+Net::HTTP::Get: /s?wd=%CD%DE%CD%DE&rsv_bp=0&rsv_spt=3
+request-header: accept => */*
+request-header: user-agent => Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+request-header: accept-encoding => gzip,deflate,identity
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: accept-language => en-us,en;q=0.5
+request-header: cookie => BAIDUID=D4D0E431571AB7B15B42A681D04A20B3:FG=1
+request-header: host => www.baidu.com
+request-header: referer => http://www.baidu.com/
+status: Net::HTTPOK 1.1 200 OK
+response-header: date => Thu, 29 Sep 2011 08:44:39 GMT
+response-header: server => BWS/1.0
+response-header: content-length => 18079
+response-header: content-type => text/html;charset=gbk
+response-header: cache-control => private
+response-header: content-encoding => gzip
+response-header: connection => Keep-Alive
+Read 1440 bytes (1440 total)
+Read 1440 bytes (2880 total)
+Read 2880 bytes (5760 total)
+Read 1440 bytes (7200 total)
+Read 4320 bytes (11520 total)
+Read 4320 bytes (15840 total)
+Read 2239 bytes (18079 total)
+gzip body
