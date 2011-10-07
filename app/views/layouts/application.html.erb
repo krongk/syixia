@@ -10,16 +10,33 @@
 	<!--[if lte IE 7]>
 	  <link href="yaml/patches/patch_2-1-3.css" rel="stylesheet" type="text/css" />
 	<![endif]-->
+  <script language="javascript">
+     $(document).ready(function(){
+      //set div corner
+        $('#page_margins').corner();
+      //set input on focus
+        //$('#q').focus();
+        $('#go-top').click(function(){
+          $('#q').focus();
+        });
+
+      });
+  </script>
 </head>
 <body>
-	<div class="page_margins">
+	<div class="page_margins" id="page_margins">
 		<div class="page">
 			<div id="header" role="banner">
 				<div id="topnav" role="contentinfo">
-					<span><a href="#">登录</a> | <a href="#">联系</a> | <a href="#">设为首页</a></span>
+					<span><a href="#">登录</a> | <a href="/welcome/contact">联系</a> | 
+          <a onclick="AddFavorite(window.location,document.title)" style="cursor:hand">加入收藏</a> | 
+          <a onclick="SetHome(this,window.location)" style="cursor:hand">设为首页</a></span>
 				</div>
-				<center><div class="center"><table border='0' width="600px"><tr><td width="160px"><%= image_tag 'logo.gif' %></td><td align="left">
-          <%= render :partial => 'layouts/form' %></td></tr></table>
+				<center><div class="center">
+          <table border='0' width="600px">
+          <tr><td width="160px"><%= image_tag 'logo.gif' %></td><td align="left">
+          <%= render :partial => 'layouts/form' %></td></tr>
+          </table>
           </div></center>
 			</div>
 			<!-- begin: main navigation #nav 
@@ -34,6 +51,9 @@
 
 <!-- begin: main content area #main -->
     <div id="main">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+
       <!-- begin: #col1 - first float column -->
       <div id="col1" role="main">
         <div id="col1_content" class="clearfix">
@@ -45,12 +65,7 @@
       <!-- begin: #col2 second float column -->
       <div id="col2" role="complementary">
         <div id="col2_content" class="clearfix">
-          <h3>相关搜索</h3>
-          <ul>
-            <li><a href="#">成都 公交</a></li>
-            <li><a href="#">成都 警察</a></li>
-            <li><a href="#">蓉城</a></li>
-          </ul>
+          <%= yield :left_side_bar %>
         </div>
       </div>
       <!-- end: #col2 -->
@@ -72,6 +87,10 @@
   <!-- end: #footer -->
 		</div>
 	</div>
+
+  <div id="go-top" onClick="goTop();return false;">
+    <%= image_tag asset_path('go_top.gif')%>
+  </div>
 	<!-- full skiplink functionality in webkit browsers -->
 	<script src="/yaml/core/js/yaml-focusfix.js" type="text/javascript"></script>
 

@@ -2,6 +2,39 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body { background: url(<%= asset_path 'bg_blue.png' %>) repeat-x top left fixed;}
+div#go-top{
+	top: 500px;
+	left: 1120px;
+	position:fixed;
+	_position:absolute;
+	background-repeat:repeat-x;
+	z-index:3;
+}
+
+div#paginate{
+	
+}
+div#paginate a{
+  font-size: 14px;
+  font-weight: 500;
+  border:1px solid #dddddd;
+  _border:1px solid #dddddd;
+  padding: 6px;
+  margin: 10px 2px;
+  background: #eeeeee;
+  display: inline;
+}
+div#paginate span{
+  font-size: 14px;
+  font-weight: 500;
+  border:1px solid #ccc;
+  _border:1px solid #ccc;
+  padding: 6px;
+  margin: 10px 2px;
+  background: #dddddd;
+  display: inline;
+}
 /* root page */
 ul,li,dl,dd,dt,h1,h2,h3,h4,h5,h6,h6,form{
 	margin:0px;
@@ -92,6 +125,11 @@ li{
 	float:left;
 	width:15px;
 	height:1px;
+}
+.root_section{
+	margin: 0 0 0 70px;
+	pading: 12px;
+	background: #ffccoo;
 }
 .root_query{
 	margin:13px 0 0 0;

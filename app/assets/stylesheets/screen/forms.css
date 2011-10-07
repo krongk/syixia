@@ -1,0 +1,29 @@
+@media screen, projection
+{
+  .xform {
+    margin:0 0 1em 0;
+    padding:10px;
+  }
+  .xform input,
+  .xform textarea,
+  .xform select, 
+  .xform optgroup {
+    font-family:'宋体', Helvetica, sans-serif; /* proportional fonts for all form elements */
+  }
+  .xform .type-input{
+    border:2px solid #4D87C7;
+    height: 20px;
+    width: 300px;
+    padding: 4px;
+  }
+  .xform .type-input:focus,
+  .xform .type-input:hover,
+  .xform .type-input:active{
+    border:2px #a66 solid;
+    background:#fffccc;
+  }
+
+  .xform .type-button {
+    padding:5px 1em;
+  }
+}

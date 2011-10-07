@@ -1,20 +1,16 @@
 $:.unshift(File.dirname(__FILE__))
-require 'forager/forage_baidu_web'
+require 'baidu_web/lib/baidu_web'
+require 'qihoo_wenda/lib/qihoo_wenda'
 
 module Forager
 
-  FORAGE_SOURCE = {
-	:baidu_web => 'http://www.baidu.com/', 
-	:qihoo_qa => 'http://www.qihoo.com/', 
-	:google_web => 'http://www.google.com',
-  }unless const_defined?(:FORAGE_SOURCE)
-
   def self.get_result(opts)
     case opts[:source]
-    when :baidu_web
-    	return Forager::ForageBaiduWeb.new(opts).get_result(opts[:key_word])
-    when :qihoo_qa
-    	return Forager::ForageQihooQa.get_result(opts[:key_word])
+    when :web
+    	#return Forager::ForageBaiduWeb.new(opts).get_result(opts[:key_word])
+      return BaiduWeb.search(opts[:key_word], :per_page => 20, :page_index => opts[:page])
+    when :wenda
+    	return QihooWenda.search(opts[:key_word], :per_page => 10, :page_index => opts[:page])
     else
     	return nil
     end

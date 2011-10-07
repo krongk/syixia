@@ -1,19 +1,30 @@
+# encoding: utf-8
 load 'forager.rb'
 class WelcomeController < ApplicationController
 
-  def index
-    unless params[:q]
-      render 'form', :layout => false
+    def index
+      unless params[:q]
+        render 'form', :layout => false
+      end
+      @ic = Iconv.new('UTF-8//IGNORE', 'gb2312//IGNORE')
+      @ic2 = Iconv.new('gb2312//IGNORE', 'UTF-8//IGNORE')
+      @coder = HTMLEntities.new
+
+      #get key word
+      q = params[:q]
+      q = CGI.escape(@ic2.iconv(q))
+
+      #get search source <web, wenda>
+      t = params[:t] || 'web'
+      t = ['web', 'wenda'].include?(t) ? t : 'web'
+
+      #get page number
+      @page = params[:page].to_i || 1
+      @page = (1..100).include?(@page) ? @page : 1
+
+      options = {:source => t.to_sym, :key_word => q, :page => @page}
+      @result = Forager.get_result(options)
     end
-    ic = Iconv.new('UTF-8//IGNORE', 'gb2312')
-    @coder = HTMLEntities.new
-    q = params[:q]
-    q = q.force_encoding("utf-8") unless q.nil?
-    q = @coder.encode(params[:q])
-    t = params[:t] || 'baidu_web'
-    options = {:source => t.to_sym, :key_word => q}
-    @result = Forager.get_result(options)
-  end
 
   def form
 
@@ -24,7 +35,7 @@ class WelcomeController < ApplicationController
 
   #关于我们
   def about
-    layout 'static'
+    
   end
 
   #版权声明

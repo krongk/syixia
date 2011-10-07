@@ -1,6 +1,10 @@
- <form action="/" onsubmit="return CHK_erro('q');">
-  <input name="t" id="t" type="hidden" value="baidu_web"/>
-  <input name="q" id="q" type="text" />
-  <input name="go" type="submit" value="搜一下" />
-  <input name="type" type="hidden" value="bisent" />
+ <form action="/" onsubmit="return CHK_erro('q');" class="xform">
+  <div class="type-check">
+	<input name="t" id="t1" type="radio" value="web" checked = "checked" class="type-check"/>网页 
+	<input name="t" id="t2" type="radio" value="wenda"/>问答
+  </div>
+  <div class="type-text">
+  	<input name="q" id="q" type="text" value = "<%= params[:q]%>" size="24" class="type-input"/>
+  	<input name="go" type="submit" value="搜一下" class="type-button"/>
+  </div>
 </form>

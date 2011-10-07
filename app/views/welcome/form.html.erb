@@ -2,12 +2,25 @@
 <html>
 <head>
   <title>Syixia</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 	<!--[if lte IE 7]>
 	<link href="/yaml/patches/patch_2-1-3.css" rel="stylesheet" type="text/css" />
 	<![endif]-->
+	<script language="javascript">
+	   $(document).ready(function(){
+        $('#form_page').corner();
+      });
+
+	  function CHK_erro(){
+	  
+	  	
+	  	return true;
+
+	  }
+	</script>
 </head>
 <body>
 	<div class="page_margins" id="form_page">
@@ -24,22 +37,20 @@
 		<div class="root_logo"><a href="#"><%= image_tag 'logo.gif' %></a></div>
 		<div class="error_07"></div>
 		<!--<div class="root_title"> Write English with Confidence</div> -->
-		<!--<div class="root_title"> 让 英 文 更 地 道 ！</div>-->
+		<!-- <div class="root_title"> 让  搜  索  更  地  道 ！</div> -->
 		<div class="error_13"></div>
-          <form action="/" onsubmit="return CHK_erro('q');">
-
+          <form action="/" onsubmit=" return CHK_erro('q');" accept-charset="utf-8">
+          	<div class="root_section">
+				<input name="t" id="t1" type="radio" value="web" checked = "checked"/>网页 
+				<input name="t" id="t2" type="radio" value="wenda"/>问答
+			</div>
 			<ul class="root_form">
-			<li class="root_form_error"></li>
-			<input name="t" id="t" type="hidden" value="baidu_web"/>
-		
-			<li class="root_query"><input name="q" id="q" type="text" /></li>
-			<li class="root_ongo" onclick="go_url('q','jukuu.php');"></li>
-			<li class="root_con"><input name="go" type="submit" value="" /></li>
-			<li class="error_13"></li>
-	
+				<li class="root_form_error"></li>
+				<li class="root_query"><input name="q" id="q" type="text" /></li>
+				<li class="root_ongo" ></li>
+				<li class="root_con"><input name="go" type="submit" value="" /></li>
+				<li class="error_13"></li>
 			</ul>
-
-			<input name="type" type="hidden" value="bisent" />
 		  </form>
 		  <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>
 		</div>

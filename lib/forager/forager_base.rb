@@ -25,6 +25,9 @@ module Forager
     attr_accessor :method_name
   end
 
+  class Record
+    attr_accessor :title, :url, :date, :summary, :item_index
+  end
   class ExtractException < Exception ; end
   # define main class
   class ForagerBase

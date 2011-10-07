@@ -1,4 +1,10 @@
 Syixia::Application.routes.draw do
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
+  resources :contacts
+
   get "welcome/index"
   get "welcome/form"
   get "welcome/result"

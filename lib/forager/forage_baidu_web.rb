@@ -28,23 +28,23 @@ module Forager
       
       #else
       results.search("table[@class='result']").each do |res|
-        item_hash = {:title => '', :url => '', :desc => ''}
+        record = Forager::Record.new
         title = res.at("h3").inner_text
         if title =~ /(News|Books|Images|Videos) for/i
            puts "next..."
            next
         end
-        item_hash[:title] = title
+        record.title = title
 
-        item_hash[:url] = res.at("h3").at("a").attributes['href'].to_s
+        record.url = res.at("h3").at("a").attributes['href'].to_s
         
         desc = res.at("font").inner_text
         if desc =~ /^(.*)(\.{3}|<span class="g"|<font color=)/
           desc = $1
         end
-        item_hash[:desc] = desc
+        record.summary = desc
         
-        list_arr << item_hash
+        list_arr << record
         index += 1
       end
 

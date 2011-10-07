@@ -1,9 +1,33 @@
+<% content_for :left_side_bar do %>
+<h3>相关搜索</h3>
+  <ul>
+  <% @result[:ext_key_arr].each do |ext_key| %>
+  	<li><%= link_to ext_key.title, "/?t=#{ext_key.source}&q=#{ext_key.title}" %></li>
+  <% end %>
+  </ul>
+<% end %>
 
-<% @result.each_with_index do |r, index| %>
-  <div class="result" id="<%=index%>">
-    <h3><%= link_to @coder.encode(r[:title]), r[:url], :target => '_blank'%></h3>
-    <p class="green"><%=r[:url]%></p>
-    <p><%= @coder.encode(r[:desc])%></p>
+<% if @result[:record_arr].empty? %>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp; 没有找到相关内容!</h3>
+<% else %>
+  <% @result[:record_arr].each_with_index do |r, index| %>
+    <div class="result" id="<%=index%>">
+      <h3><%= link_to r.title, r.url, :target => '_blank'%></h3>
+      <p class="green"><%= r.url %> &nbsp;&nbsp; 更新日期：<span><%= r.date %></span></p>
+      <p><%= r.summary %></p>
+    </div>
+    <hr/>
+  <% end %>
+
+  <div id="paginate">
+    <%= link_to "第一页", "/?t=#{@result[:source]}&q=#{params[:q]}&page=1" %>
+    <% (2..10).each do |pn| %>
+      <% if pn == @page %>
+        <span><%= pn %></span>
+      <% else %>
+        <%= link_to pn, "/?t=#{@result[:source]}&q=#{params[:q]}&page=#{pn}" %>
+      <% end %>
+    <% end %>
+    <%= link_to "更多>>", "/?t=#{@result[:source]}&q=#{params[:q]}&page=#{ params[:page].to_i > 10 ? (params[:page].to_i + 1) : 11}" %>
   </div>
-  <hr/>
 <% end %>
