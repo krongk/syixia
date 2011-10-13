@@ -44,6 +44,7 @@ class WelcomeController < ApplicationController
 
   #意见建议
   def contact
+    redirect_to new_contact_path
   end
 
   def top

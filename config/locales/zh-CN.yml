@@ -1,4 +1,5 @@
 zh-CN:
+  success: "提交成功"
   date:
     formats:
       long:  "%Y-%m-%d"
@@ -8,7 +9,7 @@ zh-CN:
   active_admin:
     dashboard: "控制面板"
     dashboard_welcome:
-      welcome: "欢迎使用Active Admin. 这是默认的控制面板页."
+      welcome: "欢迎来到syixia后台. 这是默认的控制面板页."
       call_to_action: "若要添加新的面板内容, 请修改 'app/admin/dashboards.rb'"
     view: "查看"
     edit: "编辑"

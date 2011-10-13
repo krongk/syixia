@@ -51,9 +51,8 @@
 
 <!-- begin: main content area #main -->
     <div id="main">
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
-
+      <% if notice %><div class="notice"><%= notice %></div><% end %>
+      <% if alert %><div class="alert"><%= alert %></div><% end %>
       <!-- begin: #col1 - first float column -->
       <div id="col1" role="main">
         <div id="col1_content" class="clearfix">

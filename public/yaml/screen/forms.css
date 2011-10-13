@@ -63,13 +63,13 @@
   }
 
   /* :hover and :focus status on form fields | Effekt zur Hervorhebung von Formularfeldern bei :hover oder :focus */
-  .yform div.type-text input:focus,
+  .yform div.field input:focus,
   .yform div select:focus,
   .yform div textarea:focus,
-  .yform div.type-text input:hover,
+  .yform div.field input:hover,
   .yform div select:hover,
   .yform div textarea:hover,
-  .yform div.type-text input:active,
+  .yform div.field input:active,
   .yform div select:active,
   .yform div textarea:active {
     border:1px #a66 solid;
@@ -95,9 +95,9 @@
   .yform .type-button input.submit { color:#330; background:#5e5607 url(images/button_yellow.png) top left repeat-x; }
 
   /* :hover and :focus status on buttons | Effekt zur Hervorhebung von Schaltern bei :hover oder :focus */
-  .yform div.type-button input:focus,
-  .yform div.type-button input:hover,
-  .yform div.type-button input:active {
+  .yform div.actions input:focus,
+  .yform div.actions input:hover,
+  .yform div.actions input:active {
     border-top:1px #444 solid;
     border-left:1px #444 solid;
     border-right:1px #ddd solid;
@@ -106,15 +106,15 @@
     background:#555; 
   }
 
-  .yform div.type-button input.reset:focus,
-  .yform div.type-button input.reset:hover,
-  .yform div.type-button input.reset:active {
+  .yform div.actions input.reset:focus,
+  .yform div.actions input.reset:hover,
+  .yform div.actions input.reset:active {
     background:#800; color:#fff;
   }
 
-  .yform div.type-button input.submit:focus,
-  .yform div.type-button input.submit:hover,
-  .yform div.type-button input.submit:active {
+  .yform div.actions input.submit:focus,
+  .yform div.actions input.submit:hover,
+  .yform div.actions input.submit:active {
     background:#880; color:#fff;
   }
 
@@ -153,10 +153,10 @@
 
   /* per row float clearing | zeilenweises Float-Clearing */
   fieldset:after,
-  .yform div.type-text:after,
+  .yform div.field:after,
   .yform div.type-select:after,
   .yform div.type-check:after,
-  .yform div.type-button:after {
+  .yform div.actions:after {
     clear:both;
     content:".";
     display:block;
@@ -166,10 +166,10 @@
   }
 
   /* styling containing DIV elements | Gestaltung der kapselnden DIV-Elemente */
-  .yform div.type-text,
+  .yform div.field,
   .yform div.type-select,
   .yform div.type-check,
-  .yform div.type-button {
+  .yform div.actions {
 	display:block;
     margin:0.5em 0;
     padding:3px 0.5em;  
@@ -177,7 +177,7 @@
 	zoom:1; 
   }
   
-  .yform div.type-button {
+  .yform div.actions {
     padding:3px 0em;  
   }
   
@@ -231,13 +231,13 @@
 
   /* Indent Checkbox fields to match label-width | Checkboxen um den gleichen Wert einrücken, wie die Breite der labels */
 
-  .full div.type-text input,
-  .full div.type-text textarea { width:95.5%; margin-right: -3px; }
+  .full div.field input,
+  .full div.field textarea { width:95.5%; margin-right: -3px; }
   .full div.type-select select { width:97.0%; margin-right: -3px; }
   
   /* width adjustments for IE 5.x & IE6 | Breitenanpassung für Internet Explorer 5.x und 6.0 */
-  * html .full div.type-text input,
-  * html .full div.type-text textarea { width:95.5%; }
+  * html .full div.field input,
+  * html .full div.field textarea { width:95.5%; }
   * html .full div.type-select select { width:97.0%; }
 
  /*------------------------------------------------------------------------------------------------------*/
@@ -272,16 +272,16 @@
   .columnar div.type-check input { margin-left:30%; }
   .columnar div.error .message { margin-left:30%; }
 
-  .columnar fieldset div.type-button,
-  fieldset.columnar div.type-button { padding-left:30%; }
+  .columnar fieldset div.actions,
+  fieldset.columnar div.actions { padding-left:30%; }
 
-  .columnar div.type-text input,
-  .columnar div.type-text textarea { float:left; width:67.8%; margin-right: -3px; }
+  .columnar div.field input,
+  .columnar div.field textarea { float:left; width:67.8%; margin-right: -3px; }
   .columnar div.type-select select { float:left; width:69.4%; margin-right: -3px; }
   
   /* width adjustments for IE 5.x & IE6 | Breitenanpassung für Internet Explorer 5.x und 6.0 */
-  * html .columnar div.type-text input,
-  * html .columnar div.type-text textarea { width:67.2%; }
+  * html .columnar div.field input,
+  * html .columnar div.field textarea { width:67.2%; }
   * html .columnar div.type-select select { width:68.8%; }
   
  /*------------------------------------------------------------------------------------------------------*/

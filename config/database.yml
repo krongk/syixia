@@ -2,11 +2,11 @@
     adapter: mysql2
     encoding: utf8
     reconnect: true
-    host: localhost
+    host: 127.0.0.1
     port: 3306
     pool: 5
     username: root
-    password: kenrome001
+    password: kenrome
     database: syixia_dev
     
   production:

@@ -28,7 +28,7 @@ gem 'rails-i18n'
 gem 'activeadmin'
 gem "meta_search",    '>= 1.1.0.pre'
 
-#fix bug:  Could not find a JavaScript runtime
+#fix bug:  Could not find a JavaScript runtime -- just on linux system
 gem 'therubyracer'
 
 # Gems used only for assets and not required

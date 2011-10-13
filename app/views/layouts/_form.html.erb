@@ -1,7 +1,7 @@
  <form action="/" onsubmit="return CHK_erro('q');" class="xform">
   <div class="type-check">
-	<input name="t" id="t1" type="radio" value="web" checked = "checked" class="type-check"/>网页 
-	<input name="t" id="t2" type="radio" value="wenda"/>问答
+	<input name="t" id="t1" type="radio" value="web" class="type-check" <%= params[:t] == 'web' ? "checked = 'checked'" : ''%>/>网页 
+	<input name="t" id="t2" type="radio" value="wenda" <%= params[:t] == 'wenda' ? "checked = 'checked'" : ''%>/>问答
   </div>
   <div class="type-text">
   	<input name="q" id="q" type="text" value = "<%= params[:q]%>" size="24" class="type-input"/>
