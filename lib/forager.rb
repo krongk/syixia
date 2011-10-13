@@ -7,7 +7,6 @@ module Forager
   def self.get_result(opts)
     case opts[:source]
     when :web
-    	#return Forager::ForageBaiduWeb.new(opts).get_result(opts[:key_word])
       return BaiduWeb.search(opts[:key_word], :per_page => 20, :page_index => opts[:page])
     when :wenda
     	return QihooWenda.search(opts[:key_word], :per_page => 10, :page_index => opts[:page])
