@@ -167,6 +167,9 @@
   .center { display:block; text-align:center; margin:0.5em auto; }
   .blue{color: blue;}
   .green{color: green;}
+  .red{color: red;}
+  a.red{color: red;}
+  a.green{color: green;}
  /**
   * ------------------------------------------------------------------------------------------------- #
   *

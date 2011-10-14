@@ -1,2 +1,11 @@
-<h1>Welcome#top</h1>
-<p>Find me in app/views/welcome/top.html.erb</p>
+<table>
+<% @result[:record_arr].each_with_index do |r, index| %>
+  <tr>
+    <th> <%= index + 1 %> </th>
+    <td> <%= link_to r.key_word, "/?t=web&q=#{r.key_word}" %></td>
+    <td> <%= r.trend %></td>
+    <td> <%= r.today_count %></td>
+    <td> <%= r.total_count %></td>
+  </tr>
+<% end %>
+</table>
