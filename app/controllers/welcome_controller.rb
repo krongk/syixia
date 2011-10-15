@@ -50,6 +50,7 @@ class WelcomeController < ApplicationController
   def top
     options = {:source => :baidu_top, :cate => :book}
     @result = Forager.get_result(options)
+    render :text => 'no'
   end
 
   def share
