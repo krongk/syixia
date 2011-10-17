@@ -17,7 +17,7 @@ Syixia::Application.routes.draw do
 
   get "welcome/top"
 
-  get "welcome/share"
+  get "welcome/job"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

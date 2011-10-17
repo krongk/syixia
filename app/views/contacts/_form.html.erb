@@ -16,12 +16,16 @@
     <%= f.text_field :email %>
   </div -->
   <div class="field">
-    <%= f.label :title, '意见标题:' %>
+    <%= f.label :title, '标题:' %>
     <%= f.text_field :title, :size => 40 %>
   </div>
   <div class="field">
-    <%= f.label :content, '意见内容:' %>
+    <%= f.label :content, '内容:' %>
     <%= f.text_area :content, :cols => 120 %>
+  </div>
+  <div class="field">
+    <%= f.label :email, '联系方式（QQ、手机、电子邮件）:' %>
+    <%= f.text_field :email, :size => 40 %>
   </div>
   <div class="actions">
     <%= f.submit '好了，提交！' %>

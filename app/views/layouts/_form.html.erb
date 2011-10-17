@@ -2,7 +2,7 @@
   <div class="type-check">
 	<input name="t" id="t1" type="radio" value="web" class="type-check" <%= params[:t] == 'web' ? "checked = 'checked'" : ''%>/>网页 
 	<input name="t" id="t2" type="radio" value="wenda" <%= params[:t] == 'wenda' ? "checked = 'checked'" : ''%>/>问答
-     <%= link_to "热点排行榜".force_encoding("utf-8"), "welcome/top", :class=>"red" %>
+     <%= link_to "网络小说排行榜".force_encoding("utf-8"), "/welcome/top", :class=>"red" %>
   </div>
   <div class="type-text">
   	<input name="q" id="q" type="text" value = "<%= params[:q]%>" size="24" class="type-input"/>

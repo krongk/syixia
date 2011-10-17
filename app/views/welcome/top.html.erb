@@ -1,11 +1,21 @@
 <table>
-<% @result[:record_arr].each_with_index do |r, index| %>
   <tr>
-    <th> <%= index + 1 %> </th>
+    <th width="40px"> 排名 </th>
+    <th width="300px"> 关键词 </th>
+    <th> &nbsp; </th>
+    <th width="80px"> 今日排行 </th>
+    <th width="80px"> 近七日排行 </th>
+    <th width="40px"> 趋势 </th>
+  </tr>
+<% @result[:record_arr].each_with_index do |r, index| %>
+  <% next if index == 0 %>
+  <tr>
+    <td> <%= index  %> </td>
     <td> <%= link_to r.key_word, "/?t=web&q=#{r.key_word}" %></td>
-    <td> <%= r.trend %></td>
+    <td> <%= link_to '', "/?t=web&q=#{r.key_word} 小说", :class=> 'detail' %></td>
     <td> <%= r.today_count %></td>
     <td> <%= r.total_count %></td>
+    <td> <%= (r.trend).html_safe %></td>
   </tr>
 <% end %>
 </table>
