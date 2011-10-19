@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  nickname: MyString
+  url: MyString
+  scope: MyString
+  description: MyString
+  is_valid: false
+
+two:
+  name: MyString
+  nickname: MyString
+  url: MyString
+  scope: MyString
+  description: MyString
+  is_valid: false

@@ -1,0 +1,33 @@
+<h1>Listing engines</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Nickname</th>
+    <th>Url</th>
+    <th>Scope</th>
+    <th>Description</th>
+    <th>Is valid</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @engines.each do |engine| %>
+  <tr>
+    <td><%= engine.name %></td>
+    <td><%= engine.nickname %></td>
+    <td><%= engine.url %></td>
+    <td><%= engine.scope %></td>
+    <td><%= engine.description %></td>
+    <td><%= engine.is_valid %></td>
+    <td><%= link_to 'Show', engine %></td>
+    <td><%= link_to 'Edit', edit_engine_path(engine) %></td>
+    <td><%= link_to 'Destroy', engine, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Engine', new_engine_path %>

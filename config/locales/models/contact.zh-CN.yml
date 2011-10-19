@@ -1,0 +1,10 @@
+#encoding: utf-8
+
+zh-CN:
+  activerecord:
+    models:
+      contact: "意见建议"
+    attributes:
+      contact:
+        title: "标题"
+        email: "联系方式"

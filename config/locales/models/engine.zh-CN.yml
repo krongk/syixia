@@ -1,0 +1,10 @@
+#encoding: utf-8
+
+zh-CN:
+  activerecord:
+    models:
+      engine: "引擎"
+    attributes:
+      engine:
+        name: "名称"
+        nickname: "昵称"

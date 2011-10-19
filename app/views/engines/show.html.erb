@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @engine.name %>
+</p>
+
+<p>
+  <b>Nickname:</b>
+  <%= @engine.nickname %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @engine.url %>
+</p>
+
+<p>
+  <b>Scope:</b>
+  <%= @engine.scope %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @engine.description %>
+</p>
+
+<p>
+  <b>Is valid:</b>
+  <%= @engine.is_valid %>
+</p>
+
+
+<%= link_to 'Edit', edit_engine_path(@engine) %> |
+<%= link_to 'Back', engines_path %>

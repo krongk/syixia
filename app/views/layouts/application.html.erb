@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Syixia</title>
+  <title><%= yield(:title) || "搜一下 - 第四代搜索引擎" %></title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content = "搜一下，搜索引擎，第四代搜索引擎，小说，网络小说，小说搜索，网络小说排行榜，热门网络小说" />
+  <meta name="description" content ="www.syixia.com 元搜索引擎，中文第四代搜索引擎" />
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>

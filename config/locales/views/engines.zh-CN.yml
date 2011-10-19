@@ -1,0 +1,20 @@
+#
+zh-CN:
+#  engines:
+#    index:
+#      title: Engines
+#    show:
+#      title: Engine
+#    edit:
+#      title: Editing Engine
+#    new:
+#      title: New Engine
+#  flash:
+#    engines:
+#      create:
+#        notice: ! '%{resource_name} was successfully created.'
+#      update:
+#        notice: ! '%{resource_name} was successfully updated.'
+#      destroy:
+#        notice: ! '%{resource_name} was successfully deleted.'
+#        alert: ! '%{resource_name} could not be deleted.'

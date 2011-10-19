@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111007094130) do
+ActiveRecord::Schema.define(:version => 20111019155118) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -50,6 +50,17 @@ ActiveRecord::Schema.define(:version => 20111007094130) do
     t.string   "email"
     t.string   "title"
     t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "engines", :force => true do |t|
+    t.string   "name"
+    t.string   "nickname"
+    t.string   "url"
+    t.string   "scope"
+    t.string   "description"
+    t.boolean  "is_valid",    :default => true
     t.datetime "created_at"
     t.datetime "updated_at"
   end

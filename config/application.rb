@@ -31,6 +31,8 @@ module Syixia
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '*.{rb,yml}').to_s]
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
     config.i18n.default_locale = "zh-CN".to_sym
 
     # Configure the default encoding used in templates for Ruby 1.9.
@@ -44,9 +46,9 @@ module Syixia
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
-# For faster asset precompiles, you can partially load your application by setting config.assets.initialize_on_precompile to false,i
-# though in that case templates cannot see application objects or methods. 
-  config.assets.initialize_on_precompile = false
+    # For faster asset precompiles, you can partially load your application by setting config.assets.initialize_on_precompile to false,i
+    # though in that case templates cannot see application objects or methods. 
+      config.assets.initialize_on_precompile = false
 
     #for devise
     config.action_mailer.default_url_options = { :host => 'www.syixia.com' }
