@@ -1,3 +1,14 @@
 Welcome to syixia.
 Syixia is a meta search engine.
 www.syixia.com
+
+== Common Command
+
+#Restart Apache
+
+ ##
+
+ #Precompile Assets
+ bundle exec rake assets:precompile
+ chown apache.root syixia -R
+ chmod 755 syixia -R

@@ -102,7 +102,7 @@ module BaiduWeb
 			    end
 			  end
 			end
-			record.summary = summary.join('').gsub(/百度|百度快照/, '')
+			record.summary = summary.join('').gsub(/百度|百度快照|快照/, '')
 
 			item_index += 1
 			record.item_index = item_index

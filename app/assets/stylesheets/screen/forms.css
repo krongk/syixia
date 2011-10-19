@@ -11,9 +11,10 @@
     font-family:'宋体', Helvetica, sans-serif; /* proportional fonts for all form elements */
   }
   .xform .type-input{
+    font-size: 1.2em;
     border:2px solid #4D87C7;
     height: 20px;
-    width: 300px;
+    width: 360px;
     padding: 4px;
   }
   .xform .type-input:focus,
@@ -24,6 +25,7 @@
   }
 
   .xform .type-button {
+    font-size: 1.3em;
     padding:5px 1em;
   }
 }
