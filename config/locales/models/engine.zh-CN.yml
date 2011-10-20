@@ -8,3 +8,4 @@ zh-CN:
       engine:
         name: "名称"
         nickname: "昵称"
+        url: "链接地址"
