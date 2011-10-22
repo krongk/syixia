@@ -5,7 +5,7 @@
 <hr/>
   <ul>
   <% @result[:ext_key_arr].each do |ext_key| %>
-  	<li><%= link_to ext_key.title, "/?t=#{ext_key.source}&q=#{ext_key.title}" %></li>
+    <li><%= link_to ext_key.title, "/?t=#{ext_key.source}&q=#{ext_key.title}" %></li>
   <% end %>
   </ul>
 <% end %>
@@ -16,7 +16,7 @@
   <% @result[:record_arr].each_with_index do |r, index| %>
     <div class="result" id="<%=index%>">
       <h3><%= link_to r.title, r.url, :target => '_blank'%></h3>
-    <div><p class="green"><%= truncate(r.url, :length => 80, :omission => '...') %> &nbsp;&nbsp; 更新日期：<span><%= r.date %></span></p>
+      <p class="green"><%= truncate(r.url, :length => 80, :omission => '...') %> &nbsp;&nbsp; 更新日期：<span><%= r.date %></span></p>
       <p class="summary"><%= (r.summary).html_safe %></p>
     </div>
     <hr/>
