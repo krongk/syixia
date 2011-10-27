@@ -1,0 +1,29 @@
+<h1>Listing key_words</h1>
+
+<table>
+  <tr>
+    <th>Engine</th>
+    <th>Cate</th>
+    <th>Parent</th>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @key_words.each do |key_word| %>
+  <tr>
+    <td><%= key_word.engine %></td>
+    <td><%= key_word.cate %></td>
+    <td><%= key_word.parent_id %></td>
+    <td><%= key_word.name %></td>
+    <td><%= link_to 'Show', key_word %></td>
+    <td><%= link_to 'Edit', edit_key_word_path(key_word) %></td>
+    <td><%= link_to 'Destroy', key_word, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Key word', new_key_word_path %>

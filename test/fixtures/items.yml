@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  key_word: 
+  cate: 
+  title: MyString
+  url: MyString
+  updated_date: 2011-10-28
+  summary: MyText
+  item_index: 1
+  chached_url: MyString
+  is_display: false
+
+two:
+  key_word: 
+  cate: 
+  title: MyString
+  url: MyString
+  updated_date: 2011-10-28
+  summary: MyText
+  item_index: 1
+  chached_url: MyString
+  is_display: false

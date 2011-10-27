@@ -1,0 +1,20 @@
+---
+en:
+  items:
+    index:
+      title: Items
+    show:
+      title: Item
+    edit:
+      title: Editing Item
+    new:
+      title: New Item
+  flash:
+    items:
+      create:
+        notice: ! '%{resource_name} was successfully created.'
+      update:
+        notice: ! '%{resource_name} was successfully updated.'
+      destroy:
+        notice: ! '%{resource_name} was successfully deleted.'
+        alert: ! '%{resource_name} could not be deleted.'

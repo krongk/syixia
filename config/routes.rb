@@ -1,4 +1,16 @@
 Syixia::Application.routes.draw do
+  resources :item_values
+
+  resources :items
+
+  resources :key_words
+
+  resources :cates
+
+  resources :top_items
+
+  resources :top_cates
+
   resources :engines
 
   ActiveAdmin.routes(self)

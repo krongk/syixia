@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @top_cate.name %>
+</p>
+
+<p>
+  <b>Is valid:</b>
+  <%= @top_cate.is_valid %>
+</p>
+
+
+<%= link_to 'Edit', edit_top_cate_path(@top_cate) %> |
+<%= link_to 'Back', top_cates_path %>

@@ -1,0 +1,33 @@
+<h1>Listing item_values</h1>
+
+<table>
+  <tr>
+    <th>Item</th>
+    <th>Manual value</th>
+    <th>Engine value</th>
+    <th>Click value</th>
+    <th>Recommend value</th>
+    <th>User value</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @item_values.each do |item_value| %>
+  <tr>
+    <td><%= item_value.item %></td>
+    <td><%= item_value.manual_value %></td>
+    <td><%= item_value.engine_value %></td>
+    <td><%= item_value.click_value %></td>
+    <td><%= item_value.recommend_value %></td>
+    <td><%= item_value.user_value %></td>
+    <td><%= link_to 'Show', item_value %></td>
+    <td><%= link_to 'Edit', edit_item_value_path(item_value) %></td>
+    <td><%= link_to 'Destroy', item_value, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Item value', new_item_value_path %>

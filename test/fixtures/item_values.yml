@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  item: 
+  manual_value: 1
+  engine_value: 1
+  click_value: 1
+  recommend_value: 1
+  user_value: 1
+
+two:
+  item: 
+  manual_value: 1
+  engine_value: 1
+  click_value: 1
+  recommend_value: 1
+  user_value: 1

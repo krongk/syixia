@@ -1,0 +1,13 @@
+---
+zh-TW:
+  active_record:
+    models:
+      top_cate: Top cate
+    attributes:
+      top_cate:
+        name: Name
+        is_valid: Is valid
+    errors:
+      top_cate: !!null 
+  helpers:
+    top_cate: !!null 

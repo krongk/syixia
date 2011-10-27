@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  engine: 
+  cate: 
+  parent_id: 1
+  name: MyString
+
+two:
+  engine: 
+  cate: 
+  parent_id: 1
+  name: MyString

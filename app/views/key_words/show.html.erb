@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Engine:</b>
+  <%= @key_word.engine %>
+</p>
+
+<p>
+  <b>Cate:</b>
+  <%= @key_word.cate %>
+</p>
+
+<p>
+  <b>Parent:</b>
+  <%= @key_word.parent_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @key_word.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_key_word_path(@key_word) %> |
+<%= link_to 'Back', key_words_path %>

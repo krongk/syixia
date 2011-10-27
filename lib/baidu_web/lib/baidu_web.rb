@@ -108,8 +108,6 @@ module BaiduWeb
 			record.item_index = item_index
 			record_arr << record
 		end
-		#debug
-		pp record_arr
 		return record_arr
 	  end
 

@@ -1,0 +1,53 @@
+<%= form_for(@item) do |f| %>
+  <% if @item.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+
+      <ul>
+      <% @item.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :key_word %><br />
+    <%= f.text_field :key_word %>
+  </div>
+  <div class="field">
+    <%= f.label :cate %><br />
+    <%= f.text_field :cate %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :url %><br />
+    <%= f.text_field :url %>
+  </div>
+  <div class="field">
+    <%= f.label :updated_date %><br />
+    <%= f.date_select :updated_date %>
+  </div>
+  <div class="field">
+    <%= f.label :summary %><br />
+    <%= f.text_area :summary %>
+  </div>
+  <div class="field">
+    <%= f.label :item_index %><br />
+    <%= f.number_field :item_index %>
+  </div>
+  <div class="field">
+    <%= f.label :chached_url %><br />
+    <%= f.text_field :chached_url %>
+  </div>
+  <div class="field">
+    <%= f.label :is_display %><br />
+    <%= f.check_box :is_display %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

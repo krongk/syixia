@@ -1,0 +1,18 @@
+---
+zh-CN:
+  active_record:
+    models:
+      top_item: "排行榜"
+    attributes:
+      top_item:
+        top_cate: "榜名"
+        key_word: "关键词"
+        item_index: "排名"
+        trend: "趋势"
+        today_count: "今日指数"
+        total_count: "七日指数"
+        manual_value: "人工指数"
+    errors:
+      top_item: !!null 
+  helpers:
+    top_item: !!null 

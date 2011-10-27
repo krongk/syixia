@@ -1,0 +1,13 @@
+---
+zh-CN:
+  active_record:
+    models:
+      top_cate: 排行榜类型
+    attributes:
+      top_cate:
+        name: 名称
+        is_valid: 是否有效
+    errors:
+      top_cate: !!null 
+  helpers:
+    top_cate: !!null 

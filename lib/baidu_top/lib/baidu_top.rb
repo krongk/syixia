@@ -40,11 +40,17 @@ module BaiduTop
 
         record_arr = []
         list = doc.at("div.list")
-        list.search("//tr").each do |tr|
+        list.search("//tr").each_with_index do |tr, i|
+            next if i == 0
             record = Record.new
             td = tr.search("//td")
             record.key_word = td[0].inner_text
-            record.trend = td[2].inner_html
+
+            if td[2].inner_html =~ /<span class="trend ([a-z]+)">/i
+              record.trend = $1 == 'down' ? '降' : ($1 == 'rise' ? '升' : '平')
+            end
+            record.trend = '平' unless record.trend
+
             record.today_count = td[3].inner_text
             record.total_count = td[4].inner_text
             record_arr << record

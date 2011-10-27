@@ -1,14 +1,17 @@
-Welcome to syixia.
-Syixia is a meta search engine.
-www.syixia.com
-
 == Common Command
 
 #Restart Apache
 
- ##
+#Register Active Admin
+$> rails generate active_admin:resource [MyModelName]
 
  #Precompile Assets
  bundle exec rake assets:precompile
  chown apache.root syixia -R
  chmod 755 syixia -R
+
+#Edit I18n generater
+C:\RailsInstaller\Ruby1.9.2\lib\ruby\gems\1.9.1\gems\i18n_yaml_generator-0.0.1\lib\generators\i18n_yaml\model\model_generater.rb
+C:\RailsInstaller\Ruby1.9.2\lib\ruby\gems\1.9.1\gems\i18n_yaml_generator-0.0.1\lib\generators\i18n_yaml\scaffold_controller\scaffold_generator.rb
+ > next unless ['en', 'zh-CN'].include?(locale.to_s)
+ 

@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Top cate:</b>
+  <%= @top_item.top_cate %>
+</p>
+
+<p>
+  <b>Key word:</b>
+  <%= @top_item.key_word %>
+</p>
+
+<p>
+  <b>Item index:</b>
+  <%= @top_item.item_index %>
+</p>
+
+<p>
+  <b>Trend:</b>
+  <%= @top_item.trend %>
+</p>
+
+<p>
+  <b>Today count:</b>
+  <%= @top_item.today_count %>
+</p>
+
+<p>
+  <b>Total count:</b>
+  <%= @top_item.total_count %>
+</p>
+
+<p>
+  <b>Manual value:</b>
+  <%= @top_item.manual_value %>
+</p>
+
+
+<%= link_to 'Edit', edit_top_item_path(@top_item) %> |
+<%= link_to 'Back', top_items_path %>

@@ -1,0 +1,13 @@
+---
+zh-CN:
+  active_record:
+    models:
+      cate: Cate
+    attributes:
+      cate:
+        name: Name
+        parent_id: Parent
+    errors:
+      cate: !!null 
+  helpers:
+    cate: !!null 

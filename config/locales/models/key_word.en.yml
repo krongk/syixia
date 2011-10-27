@@ -1,0 +1,15 @@
+---
+en:
+  active_record:
+    models:
+      key_word: Key word
+    attributes:
+      key_word:
+        engine: Engine
+        cate: Cate
+        parent_id: Parent
+        name: Name
+    errors:
+      key_word: !!null 
+  helpers:
+    key_word: !!null 

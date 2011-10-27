@@ -1,0 +1,20 @@
+---
+en:
+  active_record:
+    models:
+      item: Item
+    attributes:
+      item:
+        key_word: Key word
+        cate: Cate
+        title: Title
+        url: Url
+        updated_date: Updated date
+        summary: Summary
+        item_index: Item index
+        chached_url: Chached url
+        is_display: Is display
+    errors:
+      item: !!null 
+  helpers:
+    item: !!null 

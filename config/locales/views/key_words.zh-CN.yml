@@ -1,0 +1,20 @@
+---
+zh-CN:
+  key_words:
+    index:
+      title: Key words
+    show:
+      title: Key word
+    edit:
+      title: Editing Key word
+    new:
+      title: New Key word
+  flash:
+    key_words:
+      create:
+        notice: ! '%{resource_name} was successfully created.'
+      update:
+        notice: ! '%{resource_name} was successfully updated.'
+      destroy:
+        notice: ! '%{resource_name} was successfully deleted.'
+        alert: ! '%{resource_name} could not be deleted.'

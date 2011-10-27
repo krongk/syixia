@@ -47,9 +47,24 @@ class WelcomeController < ApplicationController
     redirect_to new_contact_path
   end
 
+  # result = {:record_arr => [record], :source => 'baidu_top', :cate => 'book'}
   def top
     options = {:source => :baidu_top, :cate => :book}
     @result = Forager.get_result(options)
+
+
+    top_cate = TopCate.find(1)
+    unless top_cate.top_items.size > 0
+      @result[:record_arr].each_with_index do |r, i|
+        top_cate.top_items.create!(
+          :key_word => r.key_word,
+          :item_index => i,
+          :trend => r.trend,
+          :today_count => r.today_count,
+          :total_count => r.total_count
+        )
+      end
+    end
   end
 
   def job

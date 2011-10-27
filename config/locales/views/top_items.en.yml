@@ -1,0 +1,20 @@
+---
+en:
+  top_items:
+    index:
+      title: Top items
+    show:
+      title: Top item
+    edit:
+      title: Editing Top item
+    new:
+      title: New Top item
+  flash:
+    top_items:
+      create:
+        notice: ! '%{resource_name} was successfully created.'
+      update:
+        notice: ! '%{resource_name} was successfully updated.'
+      destroy:
+        notice: ! '%{resource_name} was successfully deleted.'
+        alert: ! '%{resource_name} could not be deleted.'

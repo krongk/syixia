@@ -1,0 +1,39 @@
+<h1>Listing items</h1>
+
+<table>
+  <tr>
+    <th>Key word</th>
+    <th>Cate</th>
+    <th>Title</th>
+    <th>Url</th>
+    <th>Updated date</th>
+    <th>Summary</th>
+    <th>Item index</th>
+    <th>Chached url</th>
+    <th>Is display</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @items.each do |item| %>
+  <tr>
+    <td><%= item.key_word %></td>
+    <td><%= item.cate %></td>
+    <td><%= item.title %></td>
+    <td><%= item.url %></td>
+    <td><%= item.updated_date %></td>
+    <td><%= item.summary %></td>
+    <td><%= item.item_index %></td>
+    <td><%= item.chached_url %></td>
+    <td><%= item.is_display %></td>
+    <td><%= link_to 'Show', item %></td>
+    <td><%= link_to 'Edit', edit_item_path(item) %></td>
+    <td><%= link_to 'Destroy', item, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Item', new_item_path %>

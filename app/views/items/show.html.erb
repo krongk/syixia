@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Key word:</b>
+  <%= @item.key_word %>
+</p>
+
+<p>
+  <b>Cate:</b>
+  <%= @item.cate %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @item.title %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @item.url %>
+</p>
+
+<p>
+  <b>Updated date:</b>
+  <%= @item.updated_date %>
+</p>
+
+<p>
+  <b>Summary:</b>
+  <%= @item.summary %>
+</p>
+
+<p>
+  <b>Item index:</b>
+  <%= @item.item_index %>
+</p>
+
+<p>
+  <b>Chached url:</b>
+  <%= @item.chached_url %>
+</p>
+
+<p>
+  <b>Is display:</b>
+  <%= @item.is_display %>
+</p>
+
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Item:</b>
+  <%= @item_value.item %>
+</p>
+
+<p>
+  <b>Manual value:</b>
+  <%= @item_value.manual_value %>
+</p>
+
+<p>
+  <b>Engine value:</b>
+  <%= @item_value.engine_value %>
+</p>
+
+<p>
+  <b>Click value:</b>
+  <%= @item_value.click_value %>
+</p>
+
+<p>
+  <b>Recommend value:</b>
+  <%= @item_value.recommend_value %>
+</p>
+
+<p>
+  <b>User value:</b>
+  <%= @item_value.user_value %>
+</p>
+
+
+<%= link_to 'Edit', edit_item_value_path(@item_value) %> |
+<%= link_to 'Back', item_values_path %>

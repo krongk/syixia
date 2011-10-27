@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  top_cate: 
+  key_word: MyString
+  item_index: 1
+  trend: MyString
+  today_count: 1
+  total_count: 1
+  manual_value: 1
+
+two:
+  top_cate: 
+  key_word: MyString
+  item_index: 1
+  trend: MyString
+  today_count: 1
+  total_count: 1
+  manual_value: 1

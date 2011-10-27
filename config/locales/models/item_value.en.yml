@@ -1,0 +1,17 @@
+---
+en:
+  active_record:
+    models:
+      item_value: Item value
+    attributes:
+      item_value:
+        item: Item
+        manual_value: Manual value
+        engine_value: Engine value
+        click_value: Click value
+        recommend_value: Recommend value
+        user_value: User value
+    errors:
+      item_value: !!null 
+  helpers:
+    item_value: !!null 

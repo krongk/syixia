@@ -1,0 +1,25 @@
+<h1>Listing cates</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Parent</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @cates.each do |cate| %>
+  <tr>
+    <td><%= cate.name %></td>
+    <td><%= cate.parent_id %></td>
+    <td><%= link_to 'Show', cate %></td>
+    <td><%= link_to 'Edit', edit_cate_path(cate) %></td>
+    <td><%= link_to 'Destroy', cate, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Cate', new_cate_path %>

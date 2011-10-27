@@ -1,0 +1,25 @@
+<h1>Listing top_cates</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Is valid</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @top_cates.each do |top_cate| %>
+  <tr>
+    <td><%= top_cate.name %></td>
+    <td><%= top_cate.is_valid %></td>
+    <td><%= link_to 'Show', top_cate %></td>
+    <td><%= link_to 'Edit', edit_top_cate_path(top_cate) %></td>
+    <td><%= link_to 'Destroy', top_cate, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Top cate', new_top_cate_path %>

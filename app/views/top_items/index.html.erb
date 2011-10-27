@@ -1,0 +1,35 @@
+<h1>Listing top_items</h1>
+
+<table>
+  <tr>
+    <th>Top cate</th>
+    <th>Key word</th>
+    <th>Item index</th>
+    <th>Trend</th>
+    <th>Today count</th>
+    <th>Total count</th>
+    <th>Manual value</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @top_items.each do |top_item| %>
+  <tr>
+    <td><%= top_item.top_cate %></td>
+    <td><%= top_item.key_word %></td>
+    <td><%= top_item.item_index %></td>
+    <td><%= top_item.trend %></td>
+    <td><%= top_item.today_count %></td>
+    <td><%= top_item.total_count %></td>
+    <td><%= top_item.manual_value %></td>
+    <td><%= link_to 'Show', top_item %></td>
+    <td><%= link_to 'Edit', edit_top_item_path(top_item) %></td>
+    <td><%= link_to 'Destroy', top_item, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Top item', new_top_item_path %>
