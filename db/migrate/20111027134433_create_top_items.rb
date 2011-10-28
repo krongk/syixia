@@ -5,8 +5,9 @@ class CreateTopItems < ActiveRecord::Migration
       t.string :key_word
       t.integer :item_index
       t.string :trend
-      t.integer :today_count
-      t.integer :total_count
+      t.integer :today_value
+      t.integer :seven_value
+      t.integer :avg_value
       t.integer :manual_value, :default => 0
 
       t.timestamps

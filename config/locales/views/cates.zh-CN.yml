@@ -1,4 +1,5 @@
----
+#encoding: utf-8
+
 zh-CN:
   cates:
     index:
@@ -12,7 +13,7 @@ zh-CN:
   flash:
     cates:
       create:
-        notice: ! '%{resource_name} was successfully created.'
+        notice: ! '%{resource_name} 目录添加成功.'
       update:
         notice: ! '%{resource_name} was successfully updated.'
       destroy:

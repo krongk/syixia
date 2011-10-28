@@ -9,3 +9,6 @@ zh-CN:
         name: "名称"
         nickname: "昵称"
         url: "链接地址"
+        scope: "命名空间"
+        description: "描述"
+        is_valid: "是否有效"

@@ -8,8 +8,8 @@ class CreateItems < ActiveRecord::Migration
       t.date :updated_date
       t.text :summary
       t.integer :item_index
-      t.string :chached_url
-      t.boolean :is_display
+      t.string :cached_url
+      t.boolean :is_display, :default => true
 
       t.timestamps
     end

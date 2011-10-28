@@ -1,20 +1,21 @@
----
+#encoding: utf-8
+
 zh-CN:
   key_words:
     index:
-      title: Key words
+      title: "关键词"
     show:
-      title: Key word
+      title: "关键词"
     edit:
-      title: Editing Key word
+      title: "新建关键词"
     new:
-      title: New Key word
+      title: "编辑关键词"
   flash:
     key_words:
       create:
-        notice: ! '%{resource_name} was successfully created.'
+        notice: ! '%{resource_name} 添加成功.'
       update:
-        notice: ! '%{resource_name} was successfully updated.'
+        notice: ! '%{resource_name} 修改成功.'
       destroy:
-        notice: ! '%{resource_name} was successfully deleted.'
-        alert: ! '%{resource_name} could not be deleted.'
+        notice: ! '%{resource_name} 删除成功.'
+        alert: ! '%{resource_name} 不能删除.'

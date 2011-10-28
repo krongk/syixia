@@ -1,17 +1,14 @@
----
+#encoding: utf-8
+
 en:
-#  active_record:
-#    models:
-#      engine: Engine
-#    attributes:
-#      engine:
-#        name: Name
-#        nickname: Nickname
-#        url: Url
-#        scope: Scope
-#        description: Description
-#        is_valid: Is valid
-#    errors:
-#      engine: !!null 
-#  helpers:
-#    engine: !!null 
+    active_record:
+    models:
+     engine: Engine
+    attributes:
+     engine:
+       name: Name
+       nickname: Nickname
+       url: Url
+       scope: Scope
+       description: Description
+       is_valid: Is valid

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111027142719) do
+ActiveRecord::Schema.define(:version => 20111027163625) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -74,20 +74,68 @@ ActiveRecord::Schema.define(:version => 20111027142719) do
     t.datetime "updated_at"
   end
 
-  create_table "top_cates", :force => true do |t|
-    t.string   "name"
-    t.boolean  "is_valid"
+  create_table "item_values", :force => true do |t|
+    t.integer  "item_id"
+    t.integer  "engine_value",    :default => 0
+    t.integer  "click_value",     :default => 0
+    t.integer  "recommend_value", :default => 0
+    t.integer  "user_value",      :default => 0
+    t.integer  "manual_value",    :default => 0
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "item_values", ["item_id"], :name => "index_item_values_on_item_id"
+
+  create_table "items", :force => true do |t|
+    t.integer  "key_word_id"
+    t.integer  "cate_id"
+    t.string   "title"
+    t.string   "url"
+    t.date     "updated_date"
+    t.text     "summary"
+    t.integer  "item_index"
+    t.string   "cached_url"
+    t.boolean  "is_display",   :default => true
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "items", ["cate_id"], :name => "index_items_on_cate_id"
+  add_index "items", ["key_word_id"], :name => "index_items_on_key_word_id"
+
+  create_table "key_words", :force => true do |t|
+    t.integer  "engine_id"
+    t.integer  "cate_id",    :default => 1
+    t.integer  "parent_id",  :default => 0
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "key_words", ["cate_id"], :name => "index_key_words_on_cate_id"
+  add_index "key_words", ["engine_id"], :name => "index_key_words_on_engine_id"
+
+  create_table "top_cates", :force => true do |t|
+    t.string   "engine"
+    t.string   "cate_name"
+    t.string   "name"
+    t.string   "url"
+    t.boolean  "is_valid",   :default => true
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "top_cates", ["name"], :name => "index_top_cates_on_name"
 
   create_table "top_items", :force => true do |t|
     t.integer  "top_cate_id"
     t.string   "key_word"
     t.integer  "item_index"
     t.string   "trend"
-    t.integer  "today_count"
-    t.integer  "total_count"
+    t.integer  "today_value"
+    t.integer  "seven_value"
+    t.integer  "avg_value"
     t.integer  "manual_value", :default => 0
     t.datetime "created_at"
     t.datetime "updated_at"

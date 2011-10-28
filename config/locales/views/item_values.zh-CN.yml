@@ -1,14 +1,15 @@
----
+#encoding: utf-8
+
 zh-CN:
   item_values:
     index:
-      title: Item values
+      title: "内容权值"
     show:
-      title: Item value
+      title: "内容权值"
     edit:
-      title: Editing Item value
+      title: "修改内容权值"
     new:
-      title: New Item value
+      title: "添加内容权值"
   flash:
     item_values:
       create:

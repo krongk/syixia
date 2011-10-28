@@ -1,15 +1,12 @@
----
+﻿#encoding: utf-8
+
 zh-CN:
   active_record:
     models:
-      key_word: Key word
+      key_word: "关键词"
     attributes:
       key_word:
-        engine: Engine
-        cate: Cate
-        parent_id: Parent
-        name: Name
-    errors:
-      key_word: !!null 
-  helpers:
-    key_word: !!null 
+        engine: "引擎"
+        cate: "目录"
+        parent_id: "父级"
+        name: "名称"

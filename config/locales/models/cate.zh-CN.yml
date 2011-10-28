@@ -1,13 +1,10 @@
----
+#encoding: utf-8
+
 zh-CN:
   active_record:
     models:
-      cate: Cate
+      cate: "目录"
     attributes:
       cate:
-        name: Name
-        parent_id: Parent
-    errors:
-      cate: !!null 
-  helpers:
-    cate: !!null 
+        name: "目录名称"
+        parent_id: "父级"

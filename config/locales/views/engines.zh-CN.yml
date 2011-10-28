@@ -1,20 +1,21 @@
-#
+#encoding: utf-8
+
 zh-CN:
-#  engines:
-#    index:
-#      title: Engines
-#    show:
-#      title: Engine
-#    edit:
-#      title: Editing Engine
-#    new:
-#      title: New Engine
-#  flash:
-#    engines:
-#      create:
-#        notice: ! '%{resource_name} was successfully created.'
-#      update:
-#        notice: ! '%{resource_name} was successfully updated.'
-#      destroy:
-#        notice: ! '%{resource_name} was successfully deleted.'
-#        alert: ! '%{resource_name} could not be deleted.'
+ engines:
+   index:
+     title: "引擎"
+   show:
+     title: "引擎"
+   edit:
+     title: "编辑引擎"
+   new:
+     title: "添加引擎"
+ flash:
+   engines:
+     create:
+       notice: ! '%{resource_name} 添加成功.'
+     update:
+       notice: ! '%{resource_name} 更新成功.'
+     destroy:
+       notice: ! '%{resource_name} 删除成功.'
+       alert: ! '%{resource_name} 不能被删除.'

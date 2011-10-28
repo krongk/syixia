@@ -2,11 +2,11 @@ class CreateItemValues < ActiveRecord::Migration
   def change
     create_table :item_values do |t|
       t.references :item
-      t.integer :manual_value
-      t.integer :engine_value
-      t.integer :click_value
-      t.integer :recommend_value
-      t.integer :user_value
+      t.integer :engine_value,    :default => 0
+      t.integer :click_value,     :default => 0
+      t.integer :recommend_value, :default => 0
+      t.integer :user_value,      :default => 0
+      t.integer :manual_value,    :default => 0
 
       t.timestamps
     end
