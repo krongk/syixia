@@ -1,3 +1,4 @@
+# encoding: utf-8
 ActiveAdmin::Dashboards.build do
 
   # Define your dashboard sections here. Each block will be
@@ -7,7 +8,7 @@ ActiveAdmin::Dashboards.build do
   # == Simple Dashboard Section
   # Here is an example of a simple dashboard section
   #
-    section "Recent Posts" do
+    section "最新留言" do
       ul do
         Contact.recent(5).collect do |contact|
           li link_to(contact.title, admin_contact_path(contact))
@@ -15,7 +16,7 @@ ActiveAdmin::Dashboards.build do
       end
     end
   
-    section "Recent Key Words" do
+    section "最近搜索关键词" do
       ul do
         KeyWord.recent(10).collect do |k|
           li link_to(k.name, admin_key_word_path(k))

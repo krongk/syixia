@@ -1,3 +1,4 @@
+# encoding: utf-8
 ActiveAdmin.register TopItem do
 
   form do |f|
@@ -14,7 +15,7 @@ ActiveAdmin.register TopItem do
   	f.buttons
   end
 
-  sidebar :help, :only => :index do
+  sidebar :"提示", :only => :index do
     "Need help? Email us at master@syixia.com"
   end
 

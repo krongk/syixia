@@ -1,6 +1,11 @@
 == Common Command
 
+#change file mod
+/var/www/htdocs]#chown apache.root syixia -R
+/var/www/htdocs]#chmod 755 syixia -R
+
 #Restart Apache
+[root@uhz000970 ~]#sudo apachectl graceful
 
 #Register Active Admin
 $> rails generate active_admin:resource [MyModelName]
@@ -15,3 +20,7 @@ C:\RailsInstaller\Ruby1.9.2\lib\ruby\gems\1.9.1\gems\i18n_yaml_generator-0.0.1\l
 C:\RailsInstaller\Ruby1.9.2\lib\ruby\gems\1.9.1\gems\i18n_yaml_generator-0.0.1\lib\generators\i18n_yaml\scaffold_controller\scaffold_generator.rb
  > next unless ['en', 'zh-CN'].include?(locale.to_s)
  
+
+ #issue1: I18n
+  Thte active_record I18n only valid with locales/models/contact.zh-CN.yml and engine.zh-CN.yml
+  Not valid with other yml files, I don't known why!

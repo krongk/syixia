@@ -4,8 +4,68 @@ zh-CN:
   activerecord:
     models:
       contact: "意见建议"
+      top_cate: 排行分类
+      top_item: "排行榜单"
+      cate: "人工目录"
+      key_word: "搜索关键词"
+      item: 搜索结果
+      item_value: "搜索结果权值"
     attributes:
       contact:
         title: "标题"
         email: "联系方式"
         content: "内容"
+        created_at: 添加时间
+        updated_at: 更新时间
+      top_cate:
+        name: 名称
+        engine: 引擎
+        cate_name: 分类
+        url:  链接
+        is_valid: 是否有效
+        created_at: 添加时间
+        updated_at: 更新时间
+      top_item:
+        top_cate: "榜名"
+        key_word: "关键词"
+        item_index: "排名"
+        trend: "趋势"
+        today_value: "今日指数"
+        seven_value: "七日指数"
+        manual_value: "人工指数"
+        avg_value: 平均指数
+        created_at: 添加时间
+        updated_at: 更新时间
+      cate:
+        name: "目录名称"
+        parent_id: "父级"
+        created_at: 添加时间
+        updated_at: 更新时间
+      item:
+        key_word: 关键词
+        cate: 目录
+        title: 标题
+        url: 链接
+        updated_date: 更新日期
+        summary: 描述
+        item_index: 结果索引
+        chached_url: 缓存链接
+        is_display: 是否显示
+        created_at: 添加时间
+        updated_at: 更新时间
+      key_word:
+        engine: "引擎"
+        cate: "目录"
+        parent_id: "父级"
+        name: "名称"
+        created_at: 添加时间
+        updated_at: 更新时间
+      item_value:
+        item: "搜索结果"
+        manual_value: 人工权值(mv)
+        engine_value: 引擎权值(ev)
+        click_value: 点击权值(cv)
+        recommend_value: 推荐权值(rv)
+        user_value: 用户权值(uv)
+        created_at: 添加时间
+        updated_at: 更新时间

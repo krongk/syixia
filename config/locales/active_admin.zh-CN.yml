@@ -1,6 +1,7 @@
 zh-CN:
   success: "提交成功"
   active_admin:
+    recent_key_words: "最近搜索的关键词"
     dashboard: "控制面板"
     dashboard_welcome:
       welcome: "欢迎来到syixia后台. 这是默认的控制面板页."

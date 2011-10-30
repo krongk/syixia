@@ -74,6 +74,8 @@ ActiveRecord::Schema.define(:version => 20111027163625) do
     t.datetime "updated_at"
   end
 
+  add_index "engines", ["name"], :name => "index_engines_on_name"
+
   create_table "item_values", :force => true do |t|
     t.integer  "item_id"
     t.integer  "engine_value",    :default => 0
@@ -102,7 +104,9 @@ ActiveRecord::Schema.define(:version => 20111027163625) do
   end
 
   add_index "items", ["cate_id"], :name => "index_items_on_cate_id"
+  add_index "items", ["key_word_id", "title"], :name => "index_items_on_key_word_id_and_title"
   add_index "items", ["key_word_id"], :name => "index_items_on_key_word_id"
+  add_index "items", ["url"], :name => "index_items_on_url"
 
   create_table "key_words", :force => true do |t|
     t.integer  "engine_id"

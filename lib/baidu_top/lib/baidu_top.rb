@@ -41,7 +41,7 @@ module BaiduTop
         record_arr = []
         list = doc.at("div.list")
         list.search("//tr").each_with_index do |tr, i|
-            next if i == 0
+            next if i == 0 #ignore title
             record = Record.new
             td = tr.search("//td")
             record.key_word = td[0].inner_text

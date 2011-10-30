@@ -8,7 +8,3 @@ zh-CN:
       top_cate:
         name: 名称
         is_valid: 是否有效
-    errors:
-      top_cate: !!null 
-  helpers:
-    top_cate: !!null 

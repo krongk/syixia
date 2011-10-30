@@ -12,3 +12,5 @@ zh-CN:
         scope: "命名空间"
         description: "描述"
         is_valid: "是否有效"
+        created_at: 添加时间
+        updated_at: 更新时间

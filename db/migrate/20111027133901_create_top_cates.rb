@@ -1,3 +1,4 @@
+# encoding: utf-8
 class CreateTopCates < ActiveRecord::Migration
   def change
     create_table :top_cates do |t|
@@ -10,7 +11,7 @@ class CreateTopCates < ActiveRecord::Migration
       t.timestamps
     end
     #add init 
-    TopCate.create!(:engine => 'baidu', :cate_name => 'book', :name => 'baidu book', :url => 'http://top.baidu.com/buzz.php?p=book')
+    TopCate.create!(:engine => 'baidu', :cate_name => 'book', :name => '百度网络小说排行', :url => 'http://top.baidu.com/buzz.php?p=book')
 
     add_index :top_cates, :name
   end
