@@ -11,7 +11,7 @@ class CreateEngines < ActiveRecord::Migration
       t.timestamps
     end
 
-    Engine.create(:name => 'baidu_web', :nickname => 'baidu web search', :url => 'http://www.baidu.com', :scope => 'web', :description => 'search from baidu, get web page')
-    Engine.create(:name => 'qihoo_wenda', :nickname => 'qihoo wenda', :url => 'http://www.qihoo.com/', :scope => 'wenda', :description => 'search from qihoo, get wenda page')
+    Engine.create(:name => 'baidu_web', :nickname => '百度搜索', :url => 'http://www.baidu.com', :scope => 'web', :description => 'search from baidu, get web page')
+    Engine.create(:name => 'qihoo_wenda', :nickname => '奇虎问答', :url => 'http://www.qihoo.com/', :scope => 'wenda', :description => 'search from qihoo, get wenda page')
   end
 end
