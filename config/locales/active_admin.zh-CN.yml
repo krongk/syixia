@@ -1,11 +1,5 @@
 zh-CN:
   success: "提交成功"
-  date:
-    formats:
-      long:  "%Y-%m-%d"
-  time:
-    formats:
-      long:  "%Y-%m-%d %H:%M:%S"
   active_admin:
     dashboard: "控制面板"
     dashboard_welcome:

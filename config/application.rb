@@ -29,10 +29,21 @@ module Syixia
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
     # config.time_zone = 'Central Time (US & Canada)'
 
+#I found out that for i18n to work with cache_classes set to true i have to declare this in application.rb or respective environment.rb
+# fix that nasty i18n bug!
+config.before_configuration do
+  I18n.locale = "zh-CN".to_sym
+  I18n.load_path += Dir[Rails.root.join('config', 'locales', '*.{rb,yml}')]
+  I18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
+  I18n.reload!
+end
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '*.{rb,yml}').to_s]
-    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
+    # config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '*.{rb,yml}').to_s]
+    # config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
+
+    # config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '*.{rb,yml}')]
+    # config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
     config.i18n.default_locale = "zh-CN".to_sym
 
     # Configure the default encoding used in templates for Ruby 1.9.
