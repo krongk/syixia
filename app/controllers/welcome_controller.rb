@@ -12,7 +12,7 @@ class WelcomeController < ApplicationController
 
     #get key word
     q = params[:q]
-    q = q.squeeze(' ').strip
+    q = q.squeeze(' ').strip unless q.blank?
 
     #get search source <web, wenda>
     t = params[:t] || 'web'
