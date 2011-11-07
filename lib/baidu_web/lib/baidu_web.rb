@@ -98,7 +98,7 @@ module BaiduWeb
 			  	if elem.respond_to?(:attributes) && elem.attributes['href'] =~ /http:\/\/cache.baidu.com/
 			  	  record.cached_url = elem.attributes['href'] 
 			  	elsif elem.respond_to?(:attributes) && elem.attributes['class'] == 'g' && elem.to_s =~ /(\d{4}-\d{1,2}-\d{1,2})/
-			  	  record.date = $1
+			  	  record.updated_date = $1
 			    end
 			  end
 			end
@@ -135,7 +135,7 @@ end
 #   	 puts record.title
 #   	 puts record.url
 #   	 puts record.summary
-#   	 puts record.date
+#   	 puts record.updated_date
 #   	 puts record.item_index
 #   	 puts record.cached_url
 #   end

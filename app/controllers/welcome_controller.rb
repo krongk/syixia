@@ -23,10 +23,15 @@ class WelcomeController < ApplicationController
     @page = (1..100).include?(@page) ? @page : 1
 
     options = {:source => t.to_sym, :key_word => CGI.escape(@ic2.iconv(q)), :page => @page}
-    @result = Forager.get_result(options)
+    # result = {:record_arr => [], :ext_key_arr => [], :source => 'web'}
+    if @page == 1 && (key_word = KeyWord.find_by_name(q))
+      @result = {:record_arr => get_sorted_items(key_word), :ext_key_arr => [], :source => 'web'}
+    else
+      @result = Forager.get_result(options)
+    end
 
     #store in database
-    store_and_update(q, @result)
+    create_or_update(q, @result)
   end
 
   def form
@@ -83,6 +88,13 @@ class WelcomeController < ApplicationController
   end
 
   private
+  #item sorted by value
+  def get_sorted_items(key_word)
+    key_word.items.sort do |item| 
+      iv = item.item_value
+      iv.engine_value.to_i + iv.click_value.to_i + iv.recommend_value.to_i + iv.user_value.to_i + iv.manual_value.to_i
+    end
+  end
   # logic:
   # 1. if key word is new, store key word, store 20 items, store item values
   # 2. if key word exist, ...
@@ -90,53 +102,58 @@ class WelcomeController < ApplicationController
   # result = {:record_arr => [], :ext_key_arr => [], :source => 'web'}
   # result = {:record_arr => [], :ext_key_arr => [], :source => 'wenda'}
   # attr_accessor :title, :url, :summary, :date, :item_index, :size, :cached_url
-  def store_and_update(key_word, result)
-    begin
+  def create_or_update(key_word, result)
+    # begin
       # store baidu web
       if @result[:source] == 'web'
         # User.find_or_create_by_name('Bob', :age => 40) { |u| u.admin = true }
         engine = Engine.find_or_create_by_name('baidu_web')
         key_word = engine.key_words.find_or_create_by_name(key_word)
-        @result[:record_arr].each do |r|
-          next if key_word.items.where(:url => r.url)
-          item = key_word.items.create(
-            :title => r.title,
-            :url => r.url,
-            :updated_date => r.date,
-            :summary => r.summary,
-            :cached_url => r.cached_url,
-            :item_index => r.item_index
-          )
-          if item.present?
-            item.item_value.create(
-              :engine_value => 100
+        
+        unless key_word.items.all.size > 20
+          exist_urls = key_word.items.all.map(&:url)
+          @result[:record_arr].each_with_index do |r, index|
+            next if exist_urls.include?(r.url)
+            item = key_word.items.create!(
+              :title => r.title,
+              :url => r.url,
+              :updated_date => r.updated_date,
+              :summary => r.summary,
+              :cached_url => r.cached_url,
+              :item_index => r.item_index
             )
+            if item.present?
+              ItemValue.create!(:item_id => item.id, :engine_value => 100 - index)
+            end
           end
         end
       elsif @result[:source] == 'wenda'
         engine = Engine.find_or_create_by_name('qihoo_wenda')
         key_word = engine.key_words.find_or_create_by_name(key_word)
-        @result[:record_arr].each do |r|
-          next if key_word.items.where(:url => r.url)
-          item = key_word.items.create(
-            :title => r.title,
-            :url => r.url,
-            :updated_date => r.date,
-            :summary => r.summary,
-            :cached_url => r.cached_url,
-            :item_index => r.item_index
-          )
-          if item.present?
-            item.item_value.create(
-              :engine_value => 10
+
+        unless key_word.items.all.size > 20
+          exist_urls = key_word.items.all.map(&:url)
+          @result[:record_arr].each_with_index do |r, index|
+            next if exist_urls.include?(r.url)
+            item = key_word.items.create!(
+              :title => r.title,
+              :url => r.url,
+              :updated_date => r.updated_date,
+              :summary => r.summary,
+              :cached_url => r.cached_url,
+              :item_index => r.item_index
             )
+            if item.present?
+              #item.reload
+              ItemValue.create!(:item_id => item.id, :engine_value => 90 - index)
+            end
           end
         end
       end
-    rescue => ex
-      puts "========"
-      puts ex.message
+    # rescue => ex
+    #   puts "========"
+    #   puts ex.message
 
-    end
+    # end
   end
 end

@@ -80,7 +80,7 @@ module QihooWenda
 			res.search("font[@size='-1']").each do |font|
 			  if font.attributes['color'] == "#9C9C9C"
 			  	if font.inner_html =~ /^\s*(\d{4}-\d{1,2}-\d{1,2})\s*$/
-			  		record.date = $1
+			  		record.updated_date = $1
 			  	end
 			  elsif font.inner_text =~ /(.*)..\n\t\t/
 			  	summary << $1
@@ -93,7 +93,7 @@ module QihooWenda
 			record_arr << record
 		end
 		#debug
-		pp record_arr
+		#pp record_arr
 		return record_arr
 	  end
 

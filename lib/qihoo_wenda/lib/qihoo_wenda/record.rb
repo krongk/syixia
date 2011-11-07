@@ -1,6 +1,6 @@
 module QihooWenda
   class Record
-  	attr_accessor :title, :url, :summary, :date, :item_index, :size, :cached_url
+  	attr_accessor :title, :url, :summary, :updated_date, :item_index, :size, :cached_url
   end
 end
 
