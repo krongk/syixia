@@ -25,13 +25,27 @@ class WelcomeController < ApplicationController
     options = {:source => t.to_sym, :key_word => CGI.escape(@ic2.iconv(q)), :page => @page}
     # result = {:record_arr => [], :ext_key_arr => [], :source => 'web'}
     if @page == 1 && (key_word = KeyWord.find_by_name(q))
-      @result = {:record_arr => get_sorted_items(key_word), :ext_key_arr => [], :source => 'web'}
+      puts "get database result"
+      @result = {:record_arr => get_sorted_items(key_word).reverse, :ext_key_arr => [], :source => 'web'}
     else
       @result = Forager.get_result(options)
     end
 
     #store in database
     create_or_update(q, @result)
+  end
+
+  #when click item, active go action, update click_value and redirect
+  def go
+    item = Item.find_by_url(params[:url])
+    if item
+      item_value = item.item_value ? item.item_value : item.item_value.create!
+      item_value.click_value += 1
+      item_value.save!
+    else
+      #do nothing
+    end
+    redirect_to params[:url]
   end
 
   def form
@@ -88,11 +102,14 @@ class WelcomeController < ApplicationController
   end
 
   private
-  #item sorted by value
+  #item sorted by sum value
   def get_sorted_items(key_word)
-    key_word.items.sort do |item| 
-      iv = item.item_value
-      iv.engine_value.to_i + iv.click_value.to_i + iv.recommend_value.to_i + iv.user_value.to_i + iv.manual_value.to_i
+    key_word.items.sort do |item1, item2| 
+      iv1 = item1.item_value
+      iv1_count = iv1.engine_value.to_i + iv1.click_value.to_i + iv1.recommend_value.to_i + iv1.user_value.to_i + iv1.manual_value.to_i
+      iv2 = item2.item_value
+      iv2_count = iv2.engine_value.to_i + iv2.click_value.to_i + iv2.recommend_value.to_i + iv2.user_value.to_i + iv2.manual_value.to_i
+      iv1_count <=> iv2_count
     end
   end
   # logic:

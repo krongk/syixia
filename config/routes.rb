@@ -18,19 +18,15 @@ Syixia::Application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
 
   resources :contacts
-
+  match "go" => "welcome#go", :as => :go
+  #get "welcome/go", :as => :go
   get "welcome/index"
   get "welcome/form"
   get "welcome/result"
-
   get "welcome/about"
-
   get "welcome/faq"
-
   get "welcome/contact"
-
   get "welcome/top"
-
   get "welcome/job"
 
   # The priority is based upon order of creation:

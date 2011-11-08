@@ -3,6 +3,20 @@ ActiveAdmin.register ItemValue do
   # filter :author, :as => :select, :collection => lambda{ Product.authors }
   filter :nil
 
+  index do
+    column :id
+    column :"项目名" do |item_value|
+      item = item_value.item
+      link_to item.title, admin_item_path(item)
+    end
+    column :engine_value
+    column :click_value
+    column :recommend_value
+    column :user_value
+    column :manual_value
+    column :updated_at
+    default_actions
+  end
   #https://github.com/gregbell/active_admin/blob/master/docs/5-forms.md
   form do |f|
     f.inputs :item do

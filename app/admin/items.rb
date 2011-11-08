@@ -3,10 +3,13 @@ ActiveAdmin.register Item do
   scope :"百度网页"
   scope :"奇虎问答"
 
-  # filter: 
+  filter :title
 
   index do
   	column :id
+    column "关键词" do |item|
+      link_to item.key_word.name, admin_key_word_path(item.key_word)
+    end
     column "标题" do |item|
       link_to item.title, admin_item_path(item)
     end
