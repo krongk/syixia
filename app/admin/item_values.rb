@@ -5,6 +5,10 @@ ActiveAdmin.register ItemValue do
 
   index do
     column :id
+    column :"关键词" do |item_value|
+      key_word = item_value.item.key_word
+      link_to key_word.name, admin_key_word_path(key_word)
+    end
     column :"项目名" do |item_value|
       item = item_value.item
       link_to item.title, admin_item_path(item)

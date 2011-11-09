@@ -2,7 +2,7 @@
 class KeyWord < ActiveRecord::Base
   belongs_to :engine
   belongs_to :cate
-  has_many :items
+  has_many :items, :dependent => :destroy
 
   def self.recent(count)
   	KeyWord.order("updated_at DESC").limit(count)

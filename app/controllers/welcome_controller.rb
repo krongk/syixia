@@ -24,11 +24,15 @@ class WelcomeController < ApplicationController
 
     options = {:source => t.to_sym, :key_word => CGI.escape(@ic2.iconv(q)), :page => @page}
     # result = {:record_arr => [], :ext_key_arr => [], :source => 'web'}
+    items = []
     if @page == 1 && (key_word = KeyWord.find_by_name(q))
-      puts "get database result"
-      @result = {:record_arr => get_sorted_items(key_word).reverse, :ext_key_arr => [], :source => 'web'}
+      items = get_sorted_items(key_word).reverse
+    end
+    if items.size > 16
+      @result = {:record_arr => items, :ext_key_arr => [], :source => 'web'}
     else
       @result = Forager.get_result(options)
+      @result[:record_arr] = (items + @result[:record_arr]).uniq
     end
 
     #store in database
@@ -139,9 +143,6 @@ class WelcomeController < ApplicationController
               :cached_url => r.cached_url,
               :item_index => r.item_index
             )
-            if item.present?
-              ItemValue.create!(:item_id => item.id, :engine_value => 100 - index)
-            end
           end
         end
       elsif @result[:source] == 'wenda'

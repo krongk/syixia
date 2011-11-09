@@ -49,7 +49,7 @@ zh-CN:
         updated_date: 更新日期
         summary: 描述
         item_index: 结果索引
-        chached_url: 缓存链接
+        cached_url: 缓存链接
         is_display: 是否显示
         created_at: 添加时间
         updated_at: 更新时间
