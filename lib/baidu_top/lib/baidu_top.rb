@@ -51,8 +51,8 @@ module BaiduTop
             end
             record.trend = '平' unless record.trend
 
-            record.today_count = td[3].inner_text
-            record.total_count = td[4].inner_text
+            record.today_value = td[3].inner_text
+            record.seven_value = td[4].inner_text
             record_arr << record
         end
         puts record_arr

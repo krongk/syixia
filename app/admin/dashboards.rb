@@ -8,18 +8,27 @@ ActiveAdmin::Dashboards.build do
   # == Simple Dashboard Section
   # Here is an example of a simple dashboard section
   #
+    section "最近搜索关键词", :priority => 2 do
+      ul do
+        KeyWord.recent(10).collect do |k|
+          li link_to(k.name, admin_key_word_path(k))
+        end
+      end
+    end
+
+    section "最近修改关键词", :priority => 1 do
+      ul do
+        res = KeyWord.joins("join items it on it.key_word_id = key_words.id join item_values itv on itv.item_id = it.id WHERE itv.manual_value <> 0 ORDER BY itv.updated_at DESC LIMIT 15")
+        res.each do |r|
+          li link_to(r.name, admin_key_word_path(r))
+        end
+      end
+    end
+
     section "最新留言" do
       ul do
         Contact.recent(5).collect do |contact|
           li link_to(contact.title, admin_contact_path(contact))
-        end
-      end
-    end
-  
-    section "最近搜索关键词" do
-      ul do
-        KeyWord.recent(10).collect do |k|
-          li link_to(k.name, admin_key_word_path(k))
         end
       end
     end

@@ -19,6 +19,18 @@ ActiveAdmin.register TopItem do
     "Need help? Email us at master@syixia.com"
   end
 
+  index do 
+    column :id
+    column :"关键词" do |top_item|
+      "#{top_item.key_word}"
+    end
+    column :trend
+    column :today_value
+    column :seven_value
+    column :manual_value
+    column :updated_at
+    default_actions
+  end
 end
 
 

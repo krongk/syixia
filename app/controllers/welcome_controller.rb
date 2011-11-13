@@ -84,22 +84,37 @@ class WelcomeController < ApplicationController
     options = {:source => :baidu_top, :cate => :book}
     @result = Forager.get_result(options)
 
-    #store in database
+    
     top_cates = TopCate.where(:engine => 'baidu', :cate_name => 'book')
-    unless top_cates.empty?
-      top_cate = top_cates.first 
-      unless top_cate.top_items.size > 0
-        @result[:record_arr].each_with_index do |r, i|
-          top_cate.top_items.create!(
-            :key_word => r.key_word,
-            :item_index => i+1,
-            :trend => r.trend,
-            :today_value => r.today_count,
-            :seven_value => r.total_count
-          )
-        end
+    top_cate = top_cates.empty? ? nil : top_cates.first
+    return unless top_cate
+    
+    case top_cate.top_items.size
+    when 0 #store in database frist
+      @result[:record_arr].each_with_index do |r, i|
+        top_cate.top_items.create!(
+          :key_word => r.key_word,
+          :item_index => i+1,
+          :trend => r.trend,
+          :today_value => r.today_value,
+          :seven_value => r.seven_value
+        )
+      end
+    else #append new items
+      top_item_names = top_cate.top_items.all.map(&:key_word)
+      @result[:record_arr].each_with_index do |r, i|
+        next if top_item_names.include?(r.key_word)
+        top_cate.top_items.create!(
+          :key_word => r.key_word,
+          :item_index => i+1,
+          :trend => r.trend,
+          :today_value => r.today_value,
+          :seven_value => r.seven_value
+        )
       end
     end
+    record_arr = top_cate.top_items.sort{|i1, i2| (i2.today_value + i2.manual_value) <=> (i1.today_value + i1.manual_value)}
+    @result[:record_arr] = record_arr
   end
 
   def job
