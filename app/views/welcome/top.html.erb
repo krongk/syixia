@@ -14,8 +14,8 @@
     <td> <%= index + 1 %> </td>
     <td> <%= link_to r.key_word, "/?t=web&q=#{r.key_word}" %></td>
     <td> <%= link_to '', "/?t=web&q=#{r.key_word} 小说", :class=> 'detail' %></td>
-    <td> <%= r.today_count %></td>
-    <td> <%= r.total_count %></td>
+    <td> <%= r.today_value %></td>
+    <td> <%= r.seven_value %></td>
     <td> <span class="trend <%= r.trend == '升' ? 'rise' : (r.trend == '降' ? 'down' : 'fair')%>"></span></td>
   </tr>
 <% end %>

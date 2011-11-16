@@ -1,6 +1,6 @@
 module BaiduTop
   class Record
-    attr_accessor :sort_id, :key_word, :trend, :today_count, :total_count
+    attr_accessor :sort_id, :key_word, :trend, :today_value, :seven_value
   end
 end
 
