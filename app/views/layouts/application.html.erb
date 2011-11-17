@@ -23,6 +23,10 @@
           $('#q')[0].value = '';
         });
 
+        var index = 1
+        $('#result' + index).focus(function(){
+          $('#q').focus();
+        });
       });
   </script>
 </head>
@@ -31,7 +35,7 @@
 		<div class="page">
 			<div id="header" role="banner">
 				<div id="topnav" role="contentinfo">
-					<span><a href="#">登录</a> | <a href="/welcome/contact">联系</a> | 
+					<span> <a href="/admin">登录</a> | <a href="/welcome/contact">联系</a> | 
           <a onclick="AddFavorite(window.location,document.title)" style="cursor:hand">加入收藏</a> | 
           <a onclick="SetHome(this,window.location)" style="cursor:hand">设为首页</a></span>
 				</div>

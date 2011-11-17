@@ -3,7 +3,7 @@ load 'forager.rb'
 class WelcomeController < ApplicationController
 
   def index
-    unless params[:q]
+    unless params[:q] || params[:q].blank?
       render 'form', :layout => false
     end
     @ic = Iconv.new('UTF-8//IGNORE', 'gb2312//IGNORE')
@@ -25,18 +25,22 @@ class WelcomeController < ApplicationController
     options = {:source => t.to_sym, :key_word => CGI.escape(@ic2.iconv(q)), :page => @page}
     # result = {:record_arr => [], :ext_key_arr => [], :source => 'web'}
     items = []
-    if @page == 1 && (key_word = KeyWord.find_by_name(q))
+    if @page == 1
+      if (key_word = KeyWord.find_by_name(q)).nil?
+        result = Forager.get_result(options)
+        create_or_update(q, result)
+      elsif key_word.items.size < 15
+        result = Forager.get_result(options)
+        create_or_update(q, result)
+      end
+      key_word = KeyWord.find_by_name(q)
       items = get_sorted_items(key_word).reverse
-    end
-    if items.size > 16
       @result = {:record_arr => items, :ext_key_arr => [], :source => 'web'}
     else
       @result = Forager.get_result(options)
-      @result[:record_arr] = (items + @result[:record_arr]).uniq
     end
 
-    #store in database
-    create_or_update(q, @result)
+    
   end
 
   #when click item, active go action, update click_value and redirect
@@ -52,6 +56,16 @@ class WelcomeController < ApplicationController
     redirect_to params[:url]
   end
 
+  def recommand
+    item = Item.find_by_url(params[:id])
+    if item
+      item_value = item.item_value ? item.item_value : item.item_value.create!
+      item_value.recommand_value += 1
+      item_value.save!
+    else
+      #do nothing
+    end
+  end
   def form
 
   end
@@ -141,15 +155,18 @@ class WelcomeController < ApplicationController
   def create_or_update(key_word, result)
     # begin
       # store baidu web
-      if @result[:source] == 'web'
+      if result[:source] == 'web'
         # User.find_or_create_by_name('Bob', :age => 40) { |u| u.admin = true }
         engine = Engine.find_or_create_by_name('baidu_web')
         key_word = engine.key_words.find_or_create_by_name(key_word)
         
         unless key_word.items.all.size > 20
           exist_urls = key_word.items.all.map(&:url)
-          @result[:record_arr].each_with_index do |r, index|
+          item_size = key_word.items.all.size
+          result[:record_arr].each_with_index do |r, index|
             next if exist_urls.include?(r.url)
+            break if item_size > 20
+            item_size += 1
             item = key_word.items.create!(
               :title => r.title,
               :url => r.url,
@@ -160,14 +177,17 @@ class WelcomeController < ApplicationController
             )
           end
         end
-      elsif @result[:source] == 'wenda'
+      elsif result[:source] == 'wenda'
         engine = Engine.find_or_create_by_name('qihoo_wenda')
         key_word = engine.key_words.find_or_create_by_name(key_word)
 
         unless key_word.items.all.size > 20
           exist_urls = key_word.items.all.map(&:url)
-          @result[:record_arr].each_with_index do |r, index|
+          item_size = key_word.items.all.size
+          result[:record_arr].each_with_index do |r, index|
             next if exist_urls.include?(r.url)
+            break if item_size > 20
+            item_size += 1
             item = key_word.items.create!(
               :title => r.title,
               :url => r.url,
@@ -176,10 +196,11 @@ class WelcomeController < ApplicationController
               :cached_url => r.cached_url,
               :item_index => r.item_index
             )
-            if item.present?
-              #item.reload
-              ItemValue.create!(:item_id => item.id, :engine_value => 90 - index)
-            end
+            # if item.present?
+            #   #item.reload
+            #   #ItemValue.create!(:item_id => item.id, :engine_value => 90 - index)
+            #   ItemValue.create!(:item_id => item.id)
+            # end
           end
         end
       end
