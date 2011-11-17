@@ -1,23 +1,22 @@
 Syixia::Application.routes.draw do
-  resources :item_values
+  # resources :item_values
+  # resources :cates
+  # resources :top_items
+  # resources :top_cates
+  # resources :engines
 
+  resources :key_words do
+    resources :items
+  end
   resources :items
-
-  resources :key_words
-
-  resources :cates
-
-  resources :top_items
-
-  resources :top_cates
-
-  resources :engines
+  
 
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
 
   resources :contacts
+  
   match "go" => "welcome#go", :as => :go
   #get "welcome/go", :as => :go
   get "welcome/index"

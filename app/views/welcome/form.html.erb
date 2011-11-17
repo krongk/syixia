@@ -61,7 +61,18 @@
     <!-- end: #main -->
 
 	<!-- begin: #footer -->
-	<%= render :partial =>"layouts/footer" %>
+	<p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>
+	<p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>
+	<p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>
+	<div id="footer1" role="contentinfo" class="center"> 
+		<%= link_to '使用前必读', {:controller => :welcome, :action => :faq}, :target => '_blank' %>  |  
+		<%= link_to '联系我们', {:controller => :welcome, :action => :about}, :target => "_blank" %>  |  
+		<%= link_to '加入我们', {:controller => :welcome, :action => :job}, :target => "_blank" %>  |  
+		<%= link_to '意见建议', {:controller => :welcome, :action => :contact}, :target => "_blank" %><br/>
+		
+		&copy;2011 Syixia.com  &nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="http://www.miibeian.gov.cn/" target="_blank">蜀ICP备11023904</a>
+	</div>
 	<!-- end: #footer -->
 		</div>
 	</div>
