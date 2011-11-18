@@ -63,7 +63,8 @@ class WelcomeController < ApplicationController
     #add to item
     key_word = KeyWord.find(params[:key_word_id])
     return if key_word.nil?
-    @item = key_word.items.create!(
+    @item = key_word.items.find_by_url(params[:url])
+    @item ||= key_word.items.create!(
       :title => params[:title],
       :url => params[:url],
       :updated_date => params[:updated_date],
@@ -72,9 +73,11 @@ class WelcomeController < ApplicationController
     #recommend + 1
     if @item.present?
       item_value = @item.item_value ? @item.item_value : @item.item_value.create!
-      iv = item_value.recommend_value.to_i
-      item_value.recommend_value = iv + 1
-      item_value.save!
+      if item_value.recommend_value.to_i == 0 || (Time.now - item_value.updated_at) > 600
+        iv = item_value.recommend_value.to_i
+        item_value.recommend_value = iv + 1
+        item_value.save!
+      end
     else
       #do nothing
     end
@@ -86,10 +89,11 @@ class WelcomeController < ApplicationController
     @item = Item.find(params[:id])
     if @item
       item_value = @item.item_value ? @item.item_value : @item.item_value.create!
-      iv = item_value.recommend_value
-      item_value.recommend_value = iv.to_i + 1
-      item_value.save!
-      return nil
+      if item_value.recommend_value.to_i == 0 || (Time.now - item_value.updated_at) > 600
+        iv = item_value.recommend_value
+        item_value.recommend_value = iv.to_i + 1
+        item_value.save!
+      end
     else
       #do nothing
     end
