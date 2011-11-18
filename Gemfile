@@ -3,13 +3,13 @@ source 'http://rubygems.org'
 gem 'rails', '3.1.0'
 
 #==database
-  gem 'sqlite3'
+#  gem 'sqlite3'
 # gem 'pg', '0.9.0'
 #-- mysql2 on Windows
 # 1. download mysql-connector http://dev.mysql.com/downloads/mirror.php?id=377978#mirrors and extract to c:/
 # 2. Git bash run > gem i mysql2 -- --with-mysql-dir="c:\mysql-connector-c-noinstall-6.0.2-win32"
 # 3. also faild with mysql connection
-# gem 'mysql2', '0.3.7'
+ gem 'mysql2'
 
 #==other
 #debug: ActiveAdmin undefined local variable or method `per', so must down will_paginate '3.0.2' to '3.0.pre2'
@@ -30,7 +30,7 @@ gem 'activeadmin'
 gem "meta_search",    '>= 1.1.0.pre'
 
 #fix bug:  Could not find a JavaScript runtime -- just on linux system
-# gem 'therubyracer'
+gem 'therubyracer'
 
 # Gems used only for assets and not required
 # in production environments by default.

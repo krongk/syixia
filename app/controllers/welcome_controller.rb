@@ -3,8 +3,9 @@ load 'forager.rb'
 class WelcomeController < ApplicationController
 
   def index
-    unless params[:q] || params[:q].blank?
+    if params[:q].blank?
       render 'form', :layout => false
+      return
     end
     @ic = Iconv.new('UTF-8//IGNORE', 'gb2312//IGNORE')
     @ic2 = Iconv.new('gb2312//IGNORE', 'UTF-8//IGNORE')
@@ -26,17 +27,18 @@ class WelcomeController < ApplicationController
     # result = {:record_arr => [], :ext_key_arr => [], :source => 'web'}
     items = []
     if @page == 1
-      if (key_word = KeyWord.find_by_name(q)).nil?
+      if (@key_word = KeyWord.find_by_name(q)).nil?
         result = Forager.get_result(options)
         create_or_update(q, result)
-      elsif key_word.items.size < 15
+      elsif @key_word.items.size < 15
         result = Forager.get_result(options)
         create_or_update(q, result)
       end
-      key_word = KeyWord.find_by_name(q)
-      items = get_sorted_items(key_word).reverse
+      @key_word ||= KeyWord.find_by_name(q)
+      items = get_sorted_items(@key_word).reverse
       @result = {:record_arr => items, :ext_key_arr => [], :source => 'web'}
     else
+      @key_word ||= KeyWord.find_by_name(q)
       @result = Forager.get_result(options)
     end
 
@@ -56,12 +58,38 @@ class WelcomeController < ApplicationController
     redirect_to params[:url]
   end
 
-  def recommand
-    item = Item.find_by_url(params[:id])
-    if item
-      item_value = item.item_value ? item.item_value : item.item_value.create!
-      item_value.recommand_value += 1
+  #if item.class = Record, creae the item
+  def new_recommend
+    #add to item
+    key_word = KeyWord.find(params[:key_word_id])
+    return if key_word.nil?
+    @item = key_word.items.create!(
+      :title => params[:title],
+      :url => params[:url],
+      :updated_date => params[:updated_date],
+      :summary => params[:summary],
+    )
+    #recommend + 1
+    if @item.present?
+      item_value = @item.item_value ? @item.item_value : @item.item_value.create!
+      iv = item_value.recommend_value.to_i
+      item_value.recommend_value = iv + 1
       item_value.save!
+    else
+      #do nothing
+    end
+    #get item_index for ajax find by tag id
+    @item_index = params[:item_index]
+  end
+  #if item.class = Item, update the item_value
+  def recommend
+    @item = Item.find(params[:id])
+    if @item
+      item_value = @item.item_value ? @item.item_value : @item.item_value.create!
+      iv = item_value.recommend_value
+      item_value.recommend_value = iv.to_i + 1
+      item_value.save!
+      return nil
     else
       #do nothing
     end

@@ -91,7 +91,7 @@ ActiveRecord::Schema.define(:version => 20111027163625) do
 
   create_table "items", :force => true do |t|
     t.integer  "key_word_id"
-    t.integer  "cate_id"
+    t.integer  "cate_id",      :default => 1
     t.string   "title"
     t.string   "url"
     t.date     "updated_date"

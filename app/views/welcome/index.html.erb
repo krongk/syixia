@@ -15,14 +15,20 @@
 <% else %>
   <% @result[:record_arr].each_with_index do |r, index| %>
     <div class="result" id="<%=index%>">
-      <h3><%= link_to r.title, go_path(:url => r.url), :target => '_blank'%></h3>
+      <h3><%= link_to r.title, go_path(:url => r.url), :target => '_blank'%>
+        <span class="span_edit">
+<% if r.class.to_s == 'Item' %>
+  <%= link_to edit_item_path(r), :target => '_blank' do%><button_edit>改</button_edit><% end %>
+  <span id= "<%= "recommend_#{r.id}"%>"><%= link_to recommend_path(r.id), :remote => true, :target => '_blank' do%><button_edit>荐</button_edit><% end %></span>
+<% else %>
+  <span id= "<%= "recommend_#{r.item_index}"%>"><%= link_to new_recommend_path(:key_word_id => @key_word.id, :title => r.title, :url=> r.url, :updated_date => r.updated_date, :summary => r.summary, :item_index => r.item_index), :remote => true, :target => '_blank' do%><button_edit>荐</button_edit><% end %></span>
+<% end %>
+        </span>
+      </h3>
       <p class="green"><%= truncate(r.url, :length => 80, :omission => '...') %> &nbsp;&nbsp; 更新日期：<span><%= r.updated_date %></span></p>
       <p class="summary"><%= (r.summary).html_safe %></p>
       <div class="edit_result" id = "<%=index%>">
-          <% if r.class.to_s == 'Item' %>
-            <span class="edit_span"><%= link_to "编辑", edit_item_path(r)%></span>
-            <span class="recommand_span"><%= link_to "推荐", "/recommand/#{r.id}", :remote => true %></span>
-          <% end %>
+
       </div>
     </div>
     <hr/>

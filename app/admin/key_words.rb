@@ -9,10 +9,16 @@ ActiveAdmin.register KeyWord do
 		row :name
 		row :'结果' do 
 		  table do
-		  	key.items.sort{|x,y| x.item_index <=> y.item_index}.each do |item|
+		  	key.items.sort do |item1, item2|
+                iv1 = item1.item_value
+                iv1_count = (iv1.engine_value.to_i + iv1.click_value.to_i + iv1.recommend_value.to_i + iv1.user_value.to_i + iv1.manual_value.to_i) if item1.item_value
+                iv2 = item2.item_value
+                iv2_count = (iv2.engine_value.to_i + iv2.click_value.to_i + iv2.recommend_value.to_i + iv2.user_value.to_i + iv2.manual_value.to_i) if item2.item_value
+                iv2_count  <=>  iv1_count
+            end.each do |item|
 		  	  tr do 
 		  	  	td do
-		  	      "#{item.item_index} "
+		  	      "#{item.id} "
 		  	    end
 		  	    td do
 		  	      link_to "#{item.title}", admin_item_path(item)

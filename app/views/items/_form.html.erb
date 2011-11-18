@@ -1,4 +1,4 @@
-<%= form_for(@item) do |f| %>
+<%= form_for(@item, :html => {:class => 'yform'}) do |f| %>
   <% if @item.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
@@ -10,21 +10,16 @@
       </ul>
     </div>
   <% end %>
-
-
-  <%= f.hidden_field :key_word, :value => @item.key_word.id %>
-
-  <div class="field">
+  <div class="type-text">
     <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.text_field :title%>
   </div>
-  <div class="field">
+  <div class="type-text">
     <%= f.label :summary %><br />
-    <%= f.text_area :summary %>
+    <%= f.text_area :summary%>
   </div>
-  <%= link_to @item.url, @item.url %>
-  <%= @item.updated_date %>
-  <div class="actions">
+  <%= link_to @item.url, @item.url %> <%= @item.updated_date %>
+  <div class="type-button actions">
     <%= f.submit %>
   </div>
 <% end %>

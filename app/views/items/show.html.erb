@@ -1,50 +1,30 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Key word:</b>
-  <%= @item.key_word %>
+  <b>关键词:</b>
+  <%= @item.key_word.name %>
 </p>
 
-<p>
-  <b>Cate:</b>
-  <%= @item.cate %>
-</p>
 
 <p>
-  <b>Title:</b>
+  <b>标题:</b>
   <%= @item.title %>
 </p>
 
 <p>
-  <b>Url:</b>
-  <%= @item.url %>
+  <b>链接:</b>
+  <%= link_to @item.url, @item.url %>
 </p>
 
 <p>
-  <b>Updated date:</b>
+  <b>更新时间:</b>
   <%= @item.updated_date %>
 </p>
 
 <p>
-  <b>Summary:</b>
+  <b>描述:</b>
   <%= @item.summary %>
 </p>
 
-<p>
-  <b>Item index:</b>
-  <%= @item.item_index %>
-</p>
 
-<p>
-  <b>Cached url:</b>
-  <%= @item.cached_url %>
-</p>
-
-<p>
-  <b>Is display:</b>
-  <%= @item.is_display %>
-</p>
-
-
-<%= link_to 'Edit', edit_item_path(@item) %> |
-<%= link_to 'Back', items_path %>
+<%= link_to '返回', "/?t=web&q=#{@item.key_word.name}" %>

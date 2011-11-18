@@ -18,6 +18,8 @@ Syixia::Application.routes.draw do
   resources :contacts
   
   match "go" => "welcome#go", :as => :go
+  match "recommend/:id" => "welcome#recommend", :as => :recommend
+  match "new_recommend" => "welcome#new_recommend", :as => :new_recommend
   #get "welcome/go", :as => :go
   get "welcome/index"
   get "welcome/form"

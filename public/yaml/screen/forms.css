@@ -62,6 +62,18 @@
     border:1px solid #ddd;
   }
 
+  /*圆角效果*/
+  .yform input,
+  .yform textarea,
+  .yform select{
+    -moz-border-radius:0.4em;
+    -khtml-border-radius:0.4em;
+  }
+  /*高度*/
+  .yform input,
+  .yform select{
+    height: 20pt;
+  }
   /* :hover and :focus status on form fields | Effekt zur Hervorhebung von Formularfeldern bei :hover oder :focus */
   .yform div.field input:focus,
   .yform div select:focus,
@@ -74,6 +86,8 @@
   .yform div textarea:active {
     border:1px #a66 solid;
     background:#fff;
+    -moz-border-radius:0.4em;
+    -khtml-border-radius:0.4em;
   }
 
   /* Styling of custom styled buttons | Gestaltung von individuell gestalteten Buttons */
@@ -187,8 +201,9 @@
     display:block;
     position:relative;
     padding:0.3em 0.3em;
-    width:58.5%;
+    width:88.5%;
   }
+
 
   .yform .type-select select {
     display:block;
@@ -321,4 +336,5 @@
   
   /* IE5.x & IE6 */
   * html .yform { padding-top:10px; }
+
 }
