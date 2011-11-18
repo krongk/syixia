@@ -159,7 +159,7 @@ class WelcomeController < ApplicationController
         )
       end
     end
-    record_arr = top_cate.top_items.sort{|i1, i2| (i2.today_value + i2.manual_value) <=> (i1.today_value + i1.manual_value)}
+    record_arr = top_cate.top_items.sort{|i1, i2| (i2.today_value.to_i + i2.manual_value.to_i) <=> (i1.today_value.to_i + i1.manual_value.to_i)}
     @result[:record_arr] = record_arr
   end
 
