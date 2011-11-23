@@ -25,6 +25,7 @@ class WelcomeController < ApplicationController
 
     options = {:source => t.to_sym, :key_word => CGI.escape(@ic2.iconv(q)), :page => @page}
     # result = {:record_arr => [], :ext_key_arr => [], :source => 'web'}
+    @result = Forager.get_result(options)
     items = []
     if @page == 1
       if (@key_word = KeyWord.find_by_name(q)).nil?
@@ -36,10 +37,9 @@ class WelcomeController < ApplicationController
       end
       @key_word ||= KeyWord.find_by_name(q)
       items = get_sorted_items(@key_word).reverse
-      @result = {:record_arr => items, :ext_key_arr => [], :source => 'web'}
+      @result[:record_arr] = items
     else
       @key_word ||= KeyWord.find_by_name(q)
-      @result = Forager.get_result(options)
     end
 
     

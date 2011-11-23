@@ -66,7 +66,8 @@ module BaiduWeb
 		result[:record_arr] = extract_item(doc, item_index)
 		result[:ext_key_arr] = extract_extension_key(doc)
 		#debug
-		puts result[:record_arr].size
+		puts '---------------------------'
+		puts result[:ext_key_arr].size
 
 		return result
 	  end
@@ -74,39 +75,44 @@ module BaiduWeb
 	  private
 	  def extract_item(content, item_index)
 	  	record_arr = []
-	  	#remove op recors, e.g. search by 'mysql', see the second record.
-	  	content.search("table[@class='result-op']").remove
+	  	begin
+		  	#remove op recors, e.g. search by 'mysql', see the second record.
+		  	content.search("table[@class='result-op']").remove
 
-		content.search("table").each do |res|
-			next if res.at("h3").nil?
+			content.search("table").each do |res|
+				next if res.at("h3").nil?
 
-			record = Record.new
+				record = Record.new
 
-			title = res.at("h3").inner_text
-			record.title = title
-			record.url = res.at("h3").at("a").attributes['href'].to_s
+				title = res.at("h3").inner_text
+				record.title = title
+				record.url = res.at("h3").at("a").attributes['href'].to_s
 
-			summary = []
-			flag = true
-			res.at("font").children.each do |elem|
-			  if elem.to_s ==  "<br />"
-			  	flag = false
-			  end
-			  if flag
-			  	summary << elem.to_s
-			  else
-			  	if elem.respond_to?(:attributes) && elem.attributes['href'] =~ /http:\/\/cache.baidu.com/
-			  	  record.cached_url = elem.attributes['href'] 
-			  	elsif elem.respond_to?(:attributes) && elem.attributes['class'] == 'g' && elem.to_s =~ /(\d{4}-\d{1,2}-\d{1,2})/
-			  	  record.updated_date = $1
-			    end
-			  end
+				summary = []
+				flag = true
+				res.at("font").children.each do |elem|
+				  if elem.to_s ==  "<br />"
+				  	flag = false
+				  end
+				  if flag
+				  	summary << elem.to_s
+				  else
+				  	if elem.respond_to?(:attributes) && elem.attributes['href'] =~ /http:\/\/cache.baidu.com/
+				  	  record.cached_url = elem.attributes['href'] 
+				  	elsif elem.respond_to?(:attributes) && elem.attributes['class'] == 'g' && elem.to_s =~ /(\d{4}-\d{1,2}-\d{1,2})/
+				  	  record.updated_date = $1
+				    end
+				  end
+				end
+				record.summary = summary.join('').gsub(/百度|百度快照|快照/, '')
+
+				item_index += 1
+				record.item_index = item_index
+				record_arr << record
 			end
-			record.summary = summary.join('').gsub(/百度|百度快照|快照/, '')
-
-			item_index += 1
-			record.item_index = item_index
-			record_arr << record
+		rescue => ex
+			puts ex.message
+			return []
 		end
 		return record_arr
 	  end
