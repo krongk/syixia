@@ -5,79 +5,147 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="keywords" content = "搜一下，搜索引擎，第四代搜索引擎，小说，网络小说，小说搜索，网络小说排行榜，热门网络小说" />
   <meta name="description" content ="www.syixia.com 元搜索引擎，中文第四代搜索引擎" />
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-	<!--[if lte IE 7]>
-	<link href="/yaml/patches/patch_2-1-3.css" rel="stylesheet" type="text/css" />
-	<![endif]-->
-	<script language="javascript">
-	   $(document).ready(function(){
-        $('#form_page').corner();
-      });
+	<style type="text/css" >
+ body {
+  background-color: rgb(0,0,0); 
+}
+ #bj1 {
+  background-color: rgb(25,25,25);
+   position: absolute;
+    z-index: 1;
+    left: 5%;
+    top: 5%;
+  width: 90%;
+  height: 90%;
+}
+ #bj2 {
+  background-color: rgb(50,50,50);
+   position: absolute;
+    z-index: 3;
+    left: 10%;
+    top: 10%;
+  width: 80%;
+  height: 80%;
+}
+ #bj3 {
+  background-color: rgb(75,75,75);
+   position: absolute;
+    z-index: 4;
+    left: 15%;
+    top: 15%;
+  width: 70%;
+  height: 70%;
+}
+ #bj4 {
+  background-color: rgb(100,100,100);
+   position: absolute;
+    z-index: 5;
+    left: 20%;
+    top: 20%;
+  width: 60%;
+  height: 60%;
+}
+ #bj5 {
+  background-color: rgb(125,125,125);
+   position: absolute;
+    z-index: 6;
+    left: 25%;
+    top: 25%;
+  width: 50%;
+  height: 50%;
+}
+ #top1 {
+  background-image: url(top1.jpg);
+     position: absolute;
+    z-index: 7;
+    right: 67%;
+    top: 30%;
+  width: 30px;
+  height: 30px;
+}
+#text {
+ border-style: none;
+      position: absolute;
+    z-index: 8;
+ left: 33%;
+ top: 30%;
+ height: 30px;
+ width: 30%;
+ font-size: 18px;
+}
+#submit {
+ border-style: none;
+ position: absolute;
+    z-index: 9;
+  left: 63%;
+ top: 30%;
+ height: 30px;
+ width: 100px;
+  background: #1F1F1F url(img06.gif) no-repeat center center; 
+ color: #FFFFFF;
 
-	  function CHK_erro(){
-	  	return true;
-	  }
-	</script>
+ font-size: 20px;
+}
+#reimen,#women,#beian {
+ text-decoration: none;
+ padding: 3px;
+}
+#reimen {
+ 
+ background: #1F1F1F url(img06.gif) no-repeat center center;
+ color: #FFFFFF;
+ position: absolute;
+    z-index: 10;
+ top: 45%;
+ left: 45%;
+  text-align: center;
+ font-size: 17px;
+}
+
+#women {
+
+  background: #1F1F1F url(img06.gif) no-repeat center center;
+ color: #FFFFFF;
+  position: absolute;
+    z-index: 11;
+ top: 65%;
+ left: 43%;
+ font-size: 13px;
+}
+
+#beian {
+ font-size: 13px;
+  background: #1F1F1F url(img06.gif) no-repeat center center;
+ color: #FFFFFF;
+ position: absolute;
+ z-index: 12;
+ top: 65%;
+ left: 48%;
+}
+
+</style>
 </head>
+
 <body>
-	<div class="page_margins" id="form_page">
-		<div class="page">
-			<div id="header" role="banner">
-			</div>
-<!-- begin: main content area #main -->
-    <div id="main">
-      <!-- begin: #col1 - first float column -->
-      <div id="col1" role="main">
-        <div id="col1_content" class="clearfix">
 
-        <div class="root_case">
-		<div class="root_logo"><a href="#"><%= image_tag 'logo.gif'  %></a></div>
-		<div class="error_07"></div>
-		<!--<div class="root_title"> Write English with Confidence</div> -->
-		<!-- <div class="root_title"> 让  搜  索  更  地  道 ！</div> -->
-		<div class="error_13"></div>
-          <form action="/" onsubmit=" return CHK_erro('q');" accept-charset="utf-8">
-          	<div class="root_section">
-				<input name="t" id="t1" type="radio" value="web" checked = "checked"/>网页 
-				<input name="t" id="t2" type="radio" value="wenda"/>问答
-                <%= link_to "网络小说排行榜".force_encoding("utf-8"), "welcome/top", :class=>"red", :target => "_blank" %>
-			</div>
-			<ul class="root_form">
-				<li class="root_form_error"></li>
-				<li class="root_query"><input name="q" id="q" type="text" /></li>
-				<li class="root_ongo" ></li>
-				<li class="root_con"><input name="go" type="submit" value="" /></li>
-				<li class="error_13"></li>
-			</ul>
-		  </form>
-		  <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>
-		</div>
-        </div>
-      </div>
-      <!-- end: #col1 -->
-    </div>
-    <!-- end: #main -->
-
-	<!-- begin: #footer -->
-	<p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>
-	<p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>
-	<p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>
-	<div id="footer1" role="contentinfo" class="center"> 
-		<%= link_to '使用前必读', {:controller => :welcome, :action => :faq}, :target => '_blank' %>  |  
-		<%= link_to '联系我们', {:controller => :welcome, :action => :about}, :target => "_blank" %>  |  
-		<%= link_to '加入我们', {:controller => :welcome, :action => :job}, :target => "_blank" %>  |  
-		<%= link_to '意见建议', {:controller => :welcome, :action => :contact}, :target => "_blank" %><br/>
-		
-		&copy;2011 Syixia.com  &nbsp;&nbsp;&nbsp;&nbsp;
-	    <a href="http://www.miibeian.gov.cn/" target="_blank">蜀ICP备11023904</a>
-	</div>
-	<!-- end: #footer -->
-		</div>
-	</div>
-	<!-- full skiplink functionality in webkit browsers -->
-	<script src="../../yaml/core/js/yaml-focusfix.js" type="text/javascript"></script>
-	<script src="http://s19.cnzz.com/stat.php?id=3521223&web_id=3521223" language="JavaScript"></script>
+<div id="bj1">&nbsp;</div>
+<div id="bj2">&nbsp;</div>
+<div id="bj3">&nbsp;</div>
+<div id="bj4">&nbsp;</div>
+<div id="bj5">&nbsp;</div>
+<a id="top1" href="http://www.syixia.com/" target="_blank" ></a>
+<form action="/" accept-charset="utf-8">
+ <input name="t" type="hidden" value="web"/>
+ <input id="text" type="text" name="q" maxlength="32" />
+ <input id="submit" type="submit" value="搜一下" />
+</form>
+ 
+<a id="reimen" href="http://www.syixia.com/welcome/top/" target="_blank" >网络小说排行榜</a>
+<a id="women" href="http://www.syixia.com/welcome/about/" target="_blank" >关于我们</a>
+<a id="beian" href="http://www.miibeian.gov.cn/" target="_blank" >蜀ICP备11023904号</a>
+<div style="width:1px; height:1px; overflow:hidden">
+  <script src="http://s19.cnzz.com/stat.php?id=3521223&web_id=3521223" language="JavaScript"></script>
+</div>
 </body>
 </html>

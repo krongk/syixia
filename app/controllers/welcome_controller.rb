@@ -98,8 +98,8 @@ class WelcomeController < ApplicationController
       #do nothing
     end
   end
-  def form
 
+  def form
   end
 
   def result
