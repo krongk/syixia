@@ -36,7 +36,7 @@ class WelcomeController < ApplicationController
         create_or_update(q, result)
       end
       @key_word ||= KeyWord.find_by_name(q)
-      items = get_sorted_items(@key_word)
+      items = get_sorted_items(@key_word).reverse
       @result[:record_arr] = items
     else
       @key_word ||= KeyWord.find_by_name(q)
@@ -197,6 +197,7 @@ class WelcomeController < ApplicationController
         unless key_word.items.all.size > 20
           exist_urls = key_word.items.all.map(&:url)
           item_size = key_word.items.all.size
+          engine_value_index = 20 - item_size
           result[:record_arr].each_with_index do |r, index|
             next if exist_urls.include?(r.url)
             break if item_size > 20
@@ -209,7 +210,7 @@ class WelcomeController < ApplicationController
               :cached_url => r.cached_url,
               :item_index => r.item_index
             )
-            ItemValue.update(item.item_value.id, :engine_value => index)
+            ItemValue.update(item.item_value.id, :engine_value => engine_value_index - index)
           end
         end
       elsif result[:source] == 'wenda'
@@ -219,6 +220,7 @@ class WelcomeController < ApplicationController
         unless key_word.items.all.size > 20
           exist_urls = key_word.items.all.map(&:url)
           item_size = key_word.items.all.size
+          engine_value_index = 20 - item_size
           result[:record_arr].each_with_index do |r, index|
             next if exist_urls.include?(r.url)
             break if item_size > 20
@@ -231,7 +233,7 @@ class WelcomeController < ApplicationController
               :cached_url => r.cached_url,
               :item_index => r.item_index
             )
-            ItemValue.update(item.item_value.id, :engine_value => index)
+            ItemValue.update(item.item_value.id, :engine_value => engine_value_index - index)
             # if item.present?
             #   #item.reload
             #   #ItemValue.create!(:item_id => item.id, :engine_value => 90 - index)
