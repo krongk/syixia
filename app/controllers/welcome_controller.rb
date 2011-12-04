@@ -36,7 +36,7 @@ class WelcomeController < ApplicationController
         create_or_update(q, result)
       end
       @key_word ||= KeyWord.find_by_name(q)
-      items = get_sorted_items(@key_word).reverse
+      items = get_sorted_items(@key_word)
       @result[:record_arr] = items
     else
       @key_word ||= KeyWord.find_by_name(q)
@@ -169,9 +169,11 @@ class WelcomeController < ApplicationController
   private
   #item sorted by sum value
   def get_sorted_items(key_word)
+    index = key_word.items.size
     key_word.items.sort do |item1, item2| 
       iv1 = item1.item_value
       iv1_count = iv1.engine_value.to_i + iv1.click_value.to_i + iv1.recommend_value.to_i + iv1.user_value.to_i + iv1.manual_value.to_i
+      
       iv2 = item2.item_value
       iv2_count = iv2.engine_value.to_i + iv2.click_value.to_i + iv2.recommend_value.to_i + iv2.user_value.to_i + iv2.manual_value.to_i
       iv1_count <=> iv2_count
@@ -207,6 +209,7 @@ class WelcomeController < ApplicationController
               :cached_url => r.cached_url,
               :item_index => r.item_index
             )
+            ItemValue.update(item.item_value.id, :engine_value => index)
           end
         end
       elsif result[:source] == 'wenda'
@@ -228,6 +231,7 @@ class WelcomeController < ApplicationController
               :cached_url => r.cached_url,
               :item_index => r.item_index
             )
+            ItemValue.update(item.item_value.id, :engine_value => index)
             # if item.present?
             #   #item.reload
             #   #ItemValue.create!(:item_id => item.id, :engine_value => 90 - index)

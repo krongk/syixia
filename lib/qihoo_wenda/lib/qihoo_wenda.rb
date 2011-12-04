@@ -34,7 +34,8 @@ module QihooWenda
 	  	item_index = (@page_index - 1 ) * @per_page
 	  	#- this are hack on linux:
 	  	agent = Mechanize.new
-
+	  	agent.user_agent_alias = 'Mac Safari'
+	  	
 	  	url = "http://www.qihoo.com/wenda.php?do=search&src=jc&pos=1&kw=#{@key_word}&page=#{@page_index}"
 	  	# url = "http://www.qihoo.com/wenda.php?do=search&src=jc&pos=1&kw=%CE%C4%BB%AF&page=1"
 	  	#bugfix: URI::InvalidURIError (bad URI(is not URI?): ):
